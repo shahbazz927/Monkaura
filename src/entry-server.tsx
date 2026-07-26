@@ -1,8 +1,7 @@
 import {StrictMode} from 'react';
 import {renderToString} from 'react-dom/server';
 import {StaticRouter} from 'react-router-dom/server';
-import HelmetAsync from "react-helmet-async";
-const { Helmet, HelmetProvider } = HelmetAsync;
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import App from './App';
 import './index.css';
 
