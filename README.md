@@ -2,19 +2,28 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Monkaura Recipe Generator
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/9d61b3e6-ad76-4d19-95ae-a8bbcd4101df
+MONKAURA is a zero-sugar sweetener brand website featuring a keto recipe generator powered by OpenRouter AI.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Copy `.env.example` to `.env` and set `OPENROUTER_API_KEY` to your OpenRouter API key:
+   `OPENROUTER_API_KEY=your_openrouter_api_key_here`
+   Get a key at https://openrouter.ai/keys
 3. Run the app:
    `npm run dev`
+
+## Production Build
+
+`npm run build`
+
+## API
+
+- `POST /api/recipes/generate` — Generates a keto-friendly recipe using OpenRouter.
+  - Body: `{ "ingredient": "strawberry", "category": "dessert", "preference": "baking" }`
+  - Returns: JSON recipe with `recipeName`, `description`, `prepTime`, `cookTime`, `servings`, `ingredients`, `instructions`, `nutrition`, and `chefTip`.

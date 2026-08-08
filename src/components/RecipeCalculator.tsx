@@ -783,7 +783,7 @@ Made healthy with Monkaura — Zero-Sugar, Zero-Spike Allulose & Monk Fruit Blen
                         </h4>
                         <p className="text-brand-dark/60 text-xs font-light leading-relaxed">
                           Enter an ingredient you have in your cupboard (e.g., coconut, chocolate, blueberries) 
-                          and let Gemini instantly brew a customized, healthy recipe.
+                          and let our AI instantly brew a customized, healthy recipe.
                         </p>
                       </div>
                       <div className="pt-2">
