@@ -25,12 +25,59 @@ export default function About() {
     <section id="about" className="py-16 md:py-24 bg-brand-cream relative overflow-hidden">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/about" />
-        <title>About Us | Monkaura Sweeteners</title>
-        <meta name="description" content="Learn about Monkaura's mission to bring pure, 100% natural, FSSAI-certified monk fruit and allulose sweeteners to health-conscious Indian homes." />
-        <meta property="og:title" content="About Us | Monkaura Sweeteners" />
-        <meta property="og:description" content="Learn about Monkaura's mission to bring pure, 100% natural, FSSAI-certified monk fruit and allulose sweeteners to health-conscious Indian homes." />
+        <title>About Monkaura | India's Pure Monk Fruit & Allulose Sweetener Brand</title>
+        <meta name="description" content="Discover the Monkaura story: India's first erythritol-free, FSSAI-certified monk fruit & allulose sweetener brand. Zero calories, zero glycemic impact, crafted in Hyderabad for health-conscious Indian homes." />
+        <meta name="keywords" content="about Monkaura, Monkaura story, monk fruit sweetener brand India, FSSAI certified sweetener, allulose brand India, Hyderabad health startup" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="About Monkaura | India's Pure Monk Fruit & Allulose Sweetener Brand" />
+        <meta property="og:description" content="Discover the Monkaura story: India's first erythritol-free, FSSAI-certified monk fruit & allulose sweetener brand. Zero calories, zero glycemic impact." />
         <meta property="og:url" content="https://monkaura.in/about" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <meta property="og:site_name" content="Monkaura" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Monkaura | India's Pure Monk Fruit & Allulose Sweetener Brand" />
+        <meta name="twitter:description" content="Discover the Monkaura story: India's first erythritol-free, FSSAI-certified monk fruit & allulose sweetener brand." />
+        <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://monkaura.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About",
+                "item": "https://monkaura.in/about"
+              }
+            ]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "About Monkaura",
+            "url": "https://monkaura.in/about",
+            "description": "Monkaura is India's premier erythritol-free monk fruit and allulose sweetener brand, founded with a mission to bring natural sweetness to every Indian home.",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "MONKAURA",
+              "url": "https://monkaura.in",
+              "slogan": "Pure Natural Sweetness",
+              "foundingLocation": {
+                "@type": "Place",
+                "name": "Hyderabad, India"
+              }
+            }
+          })}
+        </script>
       </Helmet>
       {/* Decorative leaf sketch backdrop overlay */}
       <div className="absolute top-0 right-0 w-64 h-64 opacity-5 pointer-events-none select-none">

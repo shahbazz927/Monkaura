@@ -105,15 +105,19 @@ export default function App() {
         <link rel="canonical" href="https://monkaura.in/" />
         <title>Monkaura | Pure Natural Sweetness</title>
         <meta name="description" content="Monkaura is India's premier health sweetener startup using pure Allulose and Monk Fruit. Bakes, browns, and tastes exactly like real sugar with zero calories." />
+        <meta name="keywords" content="Monkaura, monk fruit sweetener India, allulose sweetener, zero calorie sugar, keto sweetener India, diabetic friendly sweetener, sugar free baking India" />
+        <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Monkaura | Pure Natural Sweetness" />
         <meta property="og:description" content="Monkaura is India's premier health sweetener startup using pure Allulose and Monk Fruit. Bakes, browns, and tastes exactly like real sugar with zero calories." />
-        <meta property="og:url" content="https://monkaura.in" />
+        <meta property="og:url" content="https://monkaura.in/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://monkaura.in/og-image.jpg" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Monkaura | Pure Natural Sweetness" />
         <meta name="twitter:description" content="Monkaura is India's premier health sweetener startup using pure Allulose and Monk Fruit. Bakes, browns, and tastes exactly like real sugar with zero calories." />
-        <meta name="twitter:image" content="https://monkaura.in/og-image.jpg" />
+        <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <meta name="twitter:site" content="@monkaura" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -131,6 +135,16 @@ export default function App() {
               "https://instagram.com/monkaura",
               "https://facebook.com/monkaura"
             ]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "MONKAURA",
+            "alternateName": "Monkaura Sweeteners",
+            "url": "https://monkaura.in/",
+            "description": "India's premier zero-calorie, zero-spike Allulose & Monk Fruit sweetener brand. Bakes, browns, and tastes exactly like real sugar."
           })}
         </script>
       </Helmet>

@@ -15,6 +15,7 @@ import {
   Activity,
   Heart
 } from "lucide-react";
+import { Link } from "react-router-dom";
 import { PRODUCTS } from "../data";
 import { Product } from "../types";
 import BuyNowModal from "./BuyNowModal";
@@ -429,13 +430,14 @@ export default function ProductSpotlight({ onAddToCart, onExploreAll }: ProductS
 
         {/* Explore All Link / CTA */}
         <div className="text-center mt-12">
-          <button
+          <Link
+            to="/products"
             onClick={onExploreAll}
             className="inline-flex items-center gap-2 text-sm font-bold text-brand-green hover:text-brand-green-light underline underline-offset-4 cursor-pointer transition-colors group"
           >
             <span>Explore All Sweeteners catalog side-by-side</span>
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
 
       </div>

@@ -129,16 +129,31 @@ export default function RecipeCalculator() {
         })
       });
 
-      const data = await response.json();
+      const contentType = response.headers.get("content-type") || "";
 
+      // If the server returned an error status, read the body as text and surface a clear error.
       if (!response.ok) {
-        throw new Error(data.error || "Failed to generate recipe. Please try again.");
+        const errorText = await response.text();
+        console.error(`API request failed (${response.status}):`, errorText.substring(0, 300));
+        throw new Error("Recipe generation failed. Please try again.");
       }
 
+      // If the response is not JSON (e.g. an HTML page returned by a static host),
+      // do NOT attempt response.json() — that would throw "Unexpected token '<'".
+      if (!contentType.includes("application/json")) {
+        const responseText = await response.text();
+        console.error(
+          `Expected JSON but received ${contentType || "unknown content type"}:`,
+          responseText.substring(0, 300)
+        );
+        throw new Error("Recipe generation failed. Please try again.");
+      }
+
+      const data = await response.json();
       setGeneratedRecipe(data);
     } catch (err: any) {
-      console.error(err);
-      setApiError(err.message || "Something went wrong while connecting to the AI baker.");
+      console.error("Recipe generation error:", err);
+      setApiError("Recipe generation failed. Please try again.");
     } finally {
       setIsGenerating(false);
     }
@@ -187,13 +202,41 @@ Made healthy with Monkaura — Zero-Sugar, Zero-Spike Allulose & Monk Fruit Blen
   return (
     <section id="recipe-hub" className="py-16 md:py-24 bg-white relative">
       <Helmet>
-        <title>Sugar-Free Dessert Recipes | Monkaura</title>
+        <title>Zero-Sugar Recipes & Keto Dessert Calculator | Monkaura</title>
         <link rel="canonical" href="https://monkaura.in/zero-sugar-recipes" />
-        <meta name="description" content="Calculate the perfect Monkaura sweetener ratio for Indian sweets and desserts with our sugar-free recipes." />
-        <meta property="og:title" content="Sugar-Free Dessert Recipes | Monkaura" />
-        <meta property="og:description" content="Calculate the perfect Monkaura sweetener ratio for Indian sweets and desserts with our sugar-free recipes." />
+        <meta name="description" content="Convert your favourite Indian sweets to zero-sugar recipes with Monkaura's 1:1 calculator. Get caloric savings, keto dessert ideas & an AI recipe generator for healthy baking." />
+        <meta name="keywords" content="zero sugar recipes India, keto desserts India, sugar free gulab jamun, sugar substitute calculator, diabetic dessert recipes, monk fruit recipes" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Zero-Sugar Recipes & Keto Dessert Calculator | Monkaura" />
+        <meta property="og:description" content="Convert your favourite Indian sweets to zero-sugar recipes with Monkaura's 1:1 calculator. Get caloric savings, keto dessert ideas & an AI recipe generator." />
         <meta property="og:url" content="https://monkaura.in/zero-sugar-recipes" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/d/1NCOTfy2-oeALS_3S58oFXlbt4kKA8kZG" />
+        <meta property="og:site_name" content="Monkaura" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zero-Sugar Recipes & Keto Dessert Calculator | Monkaura" />
+        <meta name="twitter:description" content="Convert your favourite Indian sweets to zero-sugar recipes with Monkaura's 1:1 calculator. Get caloric savings & keto dessert ideas." />
+        <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1NCOTfy2-oeALS_3S58oFXlbt4kKA8kZG" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://monkaura.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Zero-Sugar Recipes",
+                "item": "https://monkaura.in/zero-sugar-recipes"
+              }
+            ]
+          })}
+        </script>
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

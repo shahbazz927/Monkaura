@@ -67,12 +67,41 @@ export default function ContactForm() {
     <section id="contact" className="py-16 md:py-24 bg-brand-cream relative">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/contact" />
-        <title>Contact Us | Monkaura</title>
-        <meta name="description" content="Get in touch with Monkaura. For wholesale inquiries, support, or to ask questions about our pure monk fruit and allulose sweetener." />
-        <meta property="og:title" content="Contact Us | Monkaura" />
-        <meta property="og:description" content="Get in touch with Monkaura. For wholesale inquiries, support, or to ask questions about our pure monk fruit and allulose sweetener." />
+        <title>Contact Monkaura | Wholesale & Support | +91 93917 74374</title>
+        <meta name="description" content="Contact Monkaura for wholesale bakery partnerships, order support, or product questions. Reach our wellness concierge by email or phone — we reply within 2 hours." />
+        <meta name="keywords" content="contact Monkaura, Monkaura wholesale, bakery partnership India, monk fruit sweetener supplier, order support Monkaura" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Contact Monkaura | Wholesale & Support | +91 93917 74374" />
+        <meta property="og:description" content="Contact Monkaura for wholesale bakery partnerships, order support, or product questions. We reply within 2 hours." />
         <meta property="og:url" content="https://monkaura.in/contact" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <meta property="og:site_name" content="Monkaura" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Monkaura | Wholesale & Support | +91 93917 74374" />
+        <meta name="twitter:description" content="Contact Monkaura for wholesale bakery partnerships, order support, or product questions. We reply within 2 hours." />
+        <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact Monkaura",
+            "url": "https://monkaura.in/contact",
+            "description": "Get in touch with Monkaura for wholesale inquiries, order support, and product questions.",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "MONKAURA",
+              "url": "https://monkaura.in",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hyderabad",
+                "addressCountry": "IN"
+              },
+              "telephone": "+919391774374",
+              "email": "monkaura9.co@gmail.com"
+            }
+          })}
+        </script>
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

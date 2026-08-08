@@ -6,12 +6,14 @@ export default function Privacy() {
     <section id="privacy" className="py-16 md:py-24 bg-brand-cream relative overflow-hidden">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/privacy" />
-        <title>Privacy Policy | Monkaura Sweeteners</title>
-        <meta name="description" content="Read the privacy policy, cookies policy, and terms of service for Monkaura Sweeteners." />
-        <meta property="og:title" content="Privacy Policy | Monkaura Sweeteners" />
-        <meta property="og:description" content="Read the privacy policy, cookies policy, and terms of service for Monkaura Sweeteners." />
+        <title>Privacy Policy, Cookies & Terms | Monkaura Sweeteners</title>
+        <meta name="description" content="Read Monkaura's privacy policy, cookies policy, and terms of service. Learn how we collect, use, and protect your personal information when you shop with us." />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Privacy Policy, Cookies & Terms | Monkaura Sweeteners" />
+        <meta property="og:description" content="Read Monkaura's privacy policy, cookies policy, and terms of service. Learn how we collect, use, and protect your personal information." />
         <meta property="og:url" content="https://monkaura.in/privacy" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Monkaura" />
       </Helmet>
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-brand-dark">

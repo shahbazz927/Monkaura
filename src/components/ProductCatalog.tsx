@@ -83,39 +83,68 @@ export default function ProductCatalog({ onAddToCart }: ProductCatalogProps) {
     <section id="products" className="py-16 md:py-24 bg-brand-cream relative">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/products" />
-        <title>Monkaura Products | Pure Monk Fruit & Allulose Sweetener</title>
-        <meta name="description" content="Shop Monkaura's pure, keto-friendly sweetener. Zero net carbs, bakes exactly like real sugar without the calories. Available in glass jars and pouches." />
-        <meta property="og:title" content="Monkaura Products | Pure Monk Fruit & Allulose Sweetener" />
-        <meta property="og:description" content="Shop Monkaura's pure, keto-friendly sweetener. Zero net carbs, bakes exactly like real sugar without the calories." />
+        <title>Buy Monkaura Zero-Calorie Monk Fruit & Allulose Sweetener Online</title>
+        <meta name="description" content="Shop Monkaura natural sweeteners in India — pure Allulose & Monk Fruit blend, 0 calories, 0 glycemic impact. Premium glass jar, portable pouch & value gift box. Order via WhatsApp." />
+        <meta name="keywords" content="buy monk fruit sweetener India, allulose sweetener India, zero calorie sweetener online, keto sweetener buy, diabetic sugar substitute India" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Buy Monkaura Zero-Calorie Monk Fruit & Allulose Sweetener Online" />
+        <meta property="og:description" content="Shop Monkaura natural sweeteners — pure Allulose & Monk Fruit blend, 0 calories, 0 glycemic impact. Premium glass jar, portable pouch & value gift box." />
         <meta property="og:url" content="https://monkaura.in/products" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://monkaura.in/og-products.jpg" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/d/1suD2ux9Ua3YPiS8XSJ4HapGQ5nU9GDko" />
+        <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Monkaura Products | Pure Monk Fruit & Allulose Sweetener" />
-        <meta name="twitter:description" content="Shop Monkaura's pure, keto-friendly sweetener. Zero net carbs, bakes exactly like real sugar without the calories." />
-        <meta name="twitter:image" content="https://monkaura.in/og-products.jpg" />
+        <meta name="twitter:title" content="Buy Monkaura Zero-Calorie Monk Fruit & Allulose Sweetener Online" />
+        <meta name="twitter:description" content="Shop Monkaura natural sweeteners — pure Allulose & Monk Fruit blend, 0 calories, 0 glycemic impact." />
+        <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1suD2ux9Ua3YPiS8XSJ4HapGQ5nU9GDko" />
         <script type="application/ld+json">
           {JSON.stringify(
-            PRODUCTS.map(product => ({
-              "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": product.name,
-              "image": "https://monkaura.in" + product.image,
-              "description": product.description,
-              "sku": product.id,
-              "brand": {
-                "@type": "Brand",
-                "name": "MONKAURA"
+            [
+              {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://monkaura.in/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Products",
+                    "item": "https://monkaura.in/products"
+                  }
+                ]
               },
-              "offers": {
-                "@type": "Offer",
-                "url": "https://monkaura.in/products",
-                "priceCurrency": "INR",
-                "price": product.price,
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition"
-              }
-            }))
+              ...PRODUCTS.map(product => ({
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": `${product.name} - Monkaura Monk Fruit & Allulose Sweetener (${product.weight})`,
+                "image": product.image,
+                "description": product.description,
+                "sku": `MONKAURA-${product.id.toUpperCase()}`,
+                "mpn": `MONKAURA-${product.id.toUpperCase()}`,
+                "brand": {
+                  "@type": "Brand",
+                  "name": "MONKAURA"
+                },
+                "category": "Natural Sweetener",
+                "offers": {
+                  "@type": "Offer",
+                  "url": "https://monkaura.in/products",
+                  "priceCurrency": "INR",
+                  "price": product.price,
+                  "availability": product.outOfStock ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
+                  "itemCondition": "https://schema.org/NewCondition",
+                  "seller": {
+                    "@type": "Organization",
+                    "name": "MONKAURA"
+                  }
+                }
+              }))
+            ]
           )}
         </script>
       </Helmet>

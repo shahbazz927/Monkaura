@@ -27,12 +27,40 @@ export default function AlluloseStory() {
     <section id="allulose-story" className="py-16 md:py-24 bg-brand-mint-light/40 border-t border-b border-brand-green/10">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/allulose-story" />
-        <title>The Allulose Science | Monkaura</title>
-        <meta name="description" content="Discover the science of Allulose and why Monkaura banished erythritol for a truly natural, non-gastro-disruptive rare sugar sweetener." />
-        <meta property="og:title" content="The Allulose Science | Monkaura" />
-        <meta property="og:description" content="Discover the science of Allulose and why Monkaura banished erythritol for a truly natural, non-gastro-disruptive rare sugar sweetener." />
+        <title>The Science of Allulose vs Erythritol | Monkaura Rare Sugar Story</title>
+        <meta name="description" content="Discover why Monkaura banished erythritol for natural Allulose — the rare sugar that bakes, browns, and caramelizes like real sugar with zero bloating, zero cooling aftertaste, and 0 glycemic index." />
+        <meta name="keywords" content="allulose vs erythritol, what is allulose, rare sugar sweetener, allulose baking benefits, no bloating sweetener, natural sugar substitute India" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="The Science of Allulose vs Erythritol | Monkaura Rare Sugar Story" />
+        <meta property="og:description" content="Discover why Monkaura banished erythritol for natural Allulose — bakes, browns, and caramelizes like real sugar with zero bloating and 0 glycemic index." />
         <meta property="og:url" content="https://monkaura.in/allulose-story" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <meta property="og:site_name" content="Monkaura" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Science of Allulose vs Erythritol | Monkaura Rare Sugar Story" />
+        <meta name="twitter:description" content="Discover why Monkaura banished erythritol for natural Allulose — bakes, browns, and caramelizes like real sugar with zero bloating." />
+        <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://monkaura.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Allulose Story",
+                "item": "https://monkaura.in/allulose-story"
+              }
+            ]
+          })}
+        </script>
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

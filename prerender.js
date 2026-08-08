@@ -8,9 +8,11 @@ const toAbsolute = (p) => path.resolve(__dirname, p);
 const template = fs.readFileSync(toAbsolute('dist/index.html'), 'utf-8');
 const { render } = await import('./dist/server/entry-server.js');
 
-const routesToPrerender = fs.readdirSync(toAbsolute('src/components'))
-  .map((file) => file.replace(/\.tsx$/, '').toLowerCase());
-
+// Prerender every real public route (including the /home alias so the SPA
+// route resolves correctly) into static HTML files for maximum SEO.
+// NOTE: sitemap.xml and robots.txt are NOT generated here — they live in
+// public/ and are copied into dist/ by Vite automatically. This keeps a
+// single source of truth for those files.
 const routes = [
   '/',
   '/home',
@@ -46,38 +48,4 @@ const routes = [
     fs.writeFileSync(toAbsolute(filePath), htmlContent);
     console.log(`pre-rendered ${filePath}`);
   }
-
-  // Generate sitemap.xml
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${routes.map(route => `  <url>
-    <loc>https://monkaura.in${route}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>${route === '/' ? '1.0' : '0.8'}</priority>
-  </url>`).join('\n')}
-</urlset>`;
-  fs.writeFileSync(toAbsolute('dist/sitemap.xml'), sitemap);
-  console.log('generated sitemap.xml');
-
-  // Generate robots.txt
-  const robotsTxt = `User-agent: *
-Allow: /
-
-# Specifically allow standard bots & AI Crawlers
-User-agent: Googlebot
-Allow: /
-User-agent: Bingbot
-Allow: /
-User-agent: GPTBot
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: CCBot
-Allow: /
-
-Sitemap: https://monkaura.in/sitemap.xml`;
-  fs.writeFileSync(toAbsolute('dist/robots.txt'), robotsTxt);
-  console.log('generated robots.txt');
 })();

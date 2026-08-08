@@ -1,5 +1,6 @@
 import React from "react";
-import { Sparkles, ArrowRight, ShieldCheck, CheckCircle, Leaf } from "lucide-react";
+import { ArrowRight, ShieldCheck, CheckCircle, Leaf } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface HeroProps {
   onShopClick: () => void;
@@ -41,20 +42,22 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
 
             {/* CTA Actions */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 pt-4">
-              <button
+              <Link
+                to="/products"
                 onClick={onShopClick}
                 className="w-full sm:w-auto px-8 py-4 bg-brand-green hover:bg-brand-green-light text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 cursor-pointer group"
               >
                 <span>Shop Best Sellers</span>
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </button>
+              </Link>
               
-              <button
+              <Link
+                to="/allulose-story"
                 onClick={onStoryClick}
                 className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-brand-mint-light border-2 border-brand-green/20 hover:border-brand-green text-brand-green font-bold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
               >
                 <span>Allulose Story</span>
-              </button>
+              </Link>
             </div>
 
             {/* Core Trust Seals */}
@@ -86,7 +89,8 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
           </div>
 
           {/* Right Product Mockup Column */}
-          <div 
+          <Link 
+            to="/products"
             onClick={onShopClick}
             className="lg:col-span-5 relative flex justify-center items-center cursor-pointer group/hero-wedge"
           >
@@ -118,7 +122,7 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
