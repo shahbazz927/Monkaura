@@ -175,6 +175,12 @@ export default function RecipeCalculator() {
     setGeneratedRecipe(null);
     setCheckedIngredients({});
 
+    // ── 0. Simulate a realistic AI "thinking" delay (5–8s) ─────────────
+    // Keeps the existing loading animation visible while the local JSON
+    // database is queried, so the experience feels like a real AI call.
+    const delay = Math.floor(Math.random() * 2001) + 3000;
+    await new Promise(resolve => setTimeout(resolve, delay));
+
     // ── 1. Check the local JSON recipe database first ──────────────────
     // If a matching recipe exists for this ingredient + category + style,
     // display it immediately without calling OpenRouter or any external API.
