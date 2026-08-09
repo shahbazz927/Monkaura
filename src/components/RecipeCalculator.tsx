@@ -19,6 +19,7 @@ import { Helmet } from "react-helmet-async";
 import { motion, AnimatePresence } from "motion/react";
 import { DESSERT_RECIPES } from "../data";
 import { DessertRecipe } from "../types";
+import { findLocalRecipe } from "../data/localRecipes";
 
 interface AIRecipe {
   recipeName: string;
@@ -174,6 +175,17 @@ export default function RecipeCalculator() {
     setGeneratedRecipe(null);
     setCheckedIngredients({});
 
+    // ── 1. Check the local JSON recipe database first ──────────────────
+    // If a matching recipe exists for this ingredient + category + style,
+    // display it immediately without calling OpenRouter or any external API.
+    const localRecipe = findLocalRecipe(ingredientInput, recipeCategory, sweetenerStyle);
+    if (localRecipe) {
+      setGeneratedRecipe(localRecipe);
+      setIsGenerating(false);
+      return;
+    }
+
+    // ── 2. No local match — fall back to the OpenRouter AI API ─────────
     try {
       const response = await fetch("/api/recipes/generate", {
         method: "POST",
@@ -191,7 +203,7 @@ export default function RecipeCalculator() {
       if (!response.ok) {
         const errorText = await response.text();
         console.error(`API request failed (${response.status}):`, errorText.substring(0, 300));
-        throw new Error("Recipe generation failed. Please try again.");
+        throw new Error("This recipe combination is not available yet.");
       }
 
       // If the response is not JSON (e.g. an HTML page returned by a static host),
@@ -228,7 +240,7 @@ export default function RecipeCalculator() {
       setGeneratedRecipe(data);
     } catch (err: any) {
       console.error("Recipe generation error:", err);
-      setApiError("Recipe generation failed. Please try again.");
+      setApiError("This recipe combination is not available yet.");
       setGeneratedRecipe(FALLBACK_RECIPE);
     } finally {
       setIsGenerating(false);

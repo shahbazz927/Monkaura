@@ -2,8 +2,124 @@ import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
 import dotenv from "dotenv";
+import fs from "fs";
 
 dotenv.config();
+
+// ─── Local recipe database (128 predefined Monkaura recipes) ────────────
+interface LocalNutrition {
+  calories: string;
+  netCarbs: string;
+  fat: string;
+  protein: string;
+}
+
+interface LocalRecipe {
+  id: number;
+  slug: string;
+  title: string;
+  mainIngredient: string;
+  category: string;
+  sweeteningStyle: string;
+  prepTime: string;
+  cookTime: string;
+  serves: string;
+  ingredients: string[];
+  directions: string[];
+  nutritionPerServing: LocalNutrition;
+  monkauraNote: string;
+}
+
+interface LocalRecipeDatabase {
+  name: string;
+  totalRecipes: number;
+  combinations: {
+    mainIngredients: string[];
+    categories: string[];
+    sweeteningStyles: string[];
+  };
+  nutritionNote: string;
+  recipes: LocalRecipe[];
+}
+
+let LOCAL_RECIPES: LocalRecipe[] = [];
+try {
+  const rawPath = path.join(process.cwd(), "src", "data", "monkaura_128_recipes.json");
+  const raw = fs.readFileSync(rawPath, "utf-8");
+  const db = JSON.parse(raw) as LocalRecipeDatabase;
+  LOCAL_RECIPES = db.recipes || [];
+  console.log(`Loaded ${LOCAL_RECIPES.length} local Monkaura recipes.`);
+} catch (err) {
+  console.warn("Could not load local recipe database:", err);
+}
+
+const CATEGORY_MAP: Record<string, string> = {
+  dessert: "Dessert",
+  baked_goods: "Baked Goods",
+  breakfast: "Breakfast",
+  beverage: "Drinks",
+};
+
+const STYLE_MAP: Record<string, string> = {
+  baking: "Classic Baking",
+  caramelized: "Rich Caramelized",
+  standard: "Light Sweetness",
+  sauce: "Glossy Glazes/Syrup",
+};
+
+function normalizeIngredient(input: string): string {
+  return input.trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function findLocalRecipe(
+  ingredient: string,
+  categoryId: string,
+  styleId: string
+): LocalRecipe | null {
+  const categoryName = CATEGORY_MAP[categoryId];
+  const styleName = STYLE_MAP[styleId];
+  if (!categoryName || !styleName) return null;
+
+  const normalizedIngredient = normalizeIngredient(ingredient);
+
+  let match = LOCAL_RECIPES.find(
+    (r) =>
+      normalizeIngredient(r.mainIngredient) === normalizedIngredient &&
+      r.category === categoryName &&
+      r.sweeteningStyle === styleName
+  );
+
+  if (!match) {
+    match = LOCAL_RECIPES.find(
+      (r) =>
+        normalizeIngredient(r.mainIngredient).includes(normalizedIngredient) &&
+        r.category === categoryName &&
+        r.sweeteningStyle === styleName
+    );
+  }
+
+  return match || null;
+}
+
+function convertLocalRecipeToAI(recipe: LocalRecipe) {
+  return {
+    recipeName: recipe.title,
+    description: "A delicious " + recipe.category.toLowerCase() + " featuring " + recipe.mainIngredient + " with a " + recipe.sweeteningStyle.toLowerCase() + " sweetening style.",
+    prepTime: recipe.prepTime,
+    cookTime: recipe.cookTime,
+    servings: recipe.serves,
+    ingredients: recipe.ingredients,
+    instructions: recipe.directions,
+    nutrition: {
+      calories: recipe.nutritionPerServing.calories,
+      netCarbs: recipe.nutritionPerServing.netCarbs,
+      fat: recipe.nutritionPerServing.fat,
+      protein: recipe.nutritionPerServing.protein,
+      monkauraSavings: "Zero-sugar, zero-spike sweetness from Monkaura Allulose & Monk Fruit Blend."
+    },
+    chefTip: recipe.monkauraNote
+  };
+}
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
@@ -64,6 +180,15 @@ app.post("/api/recipes/generate", async (req, res) => {
 
   if (!ingredient || typeof ingredient !== "string" || ingredient.trim() === "") {
     res.status(400).json({ error: "Please provide at least one ingredient." });
+    return;
+  }
+
+  // ── Check the local JSON recipe database first ────────────────────────
+  // If a matching recipe exists for this ingredient + category + style,
+  // return it immediately without calling OpenRouter or any external API.
+  const localMatch = findLocalRecipe(ingredient, category, preference);
+  if (localMatch) {
+    res.json(convertLocalRecipeToAI(localMatch));
     return;
   }
 
