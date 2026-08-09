@@ -8,8 +8,28 @@ dotenv.config();
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
-// Parse incoming JSON
+// Hostinger serves this app behind its hCDN reverse proxy, so trust
+// X-Forwarded-* headers (required for correct req.ip, protocol, etc.).
+app.set("trust proxy", true);
+
+// Parse incoming JSON. If the client sends a malformed JSON body,
+// express.json() throws a SyntaxError with a 400 status — we must
+// convert it to a JSON response so the frontend never receives HTML.
 app.use(express.json());
+
+// Convert body-parser errors (malformed JSON, entity too large) into
+// clean JSON responses instead of Express's default HTML error page.
+app.use((err: any, _req: express.Request, res: express.Response, next: express.NextFunction) => {
+  if (err?.type === "entity.parse.failed") {
+    res.status(400).json({ error: "Invalid JSON body." });
+    return;
+  }
+  if (err?.type === "entity.too.large") {
+    res.status(413).json({ error: "Request body too large." });
+    return;
+  }
+  next(err);
+});
 
 // OpenRouter configuration
 const OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions";
@@ -258,7 +278,10 @@ async function startServer() {
       });
     }
 
-    // SPA fallback — any unknown route still renders the client-side app.
+    // SPA fallback — any non-API route still renders the client-side app.
+    // NOTE: the global `/api` 404 middleware registered earlier guarantees
+    // that NO /api/* request ever reaches this fallback, so the frontend
+    // always receives JSON (never index.html) for API paths.
     app.get("*", (req, res) => {
       res.sendFile(path.join(distPath, "index.html"));
     });

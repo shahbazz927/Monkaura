@@ -1,0 +1,36 @@
+# ============================================================
+# Monkaura — production API routing for Hostinger Node.js hosting
+# ============================================================
+#
+# Root cause this fixes:
+#   The SPA (dist/) is served by Hostinger's static web server,
+#   so a browser fetch to "/api/recipes/generate" was being
+#   answered with Hostinger's static "This Page Does Not Exist"
+#   HTML page (content-type: text/html). The frontend then tried
+#   response.json() on that HTML and threw:
+#
+#     Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+#
+# This file is copied into dist/ by Vite during `npm run build`
+# (public/ -> dist/). Deploy dist/ contents to the Hostinger
+# document root (e.g. public_html/) and Apache/LiteSpeed will
+# proxy every /api/* request to the Express server below, so the
+# API ALWAYS returns JSON — never index.html.
+#
+# IMPORTANT:
+#   The port (3000) must match the Node.js app port shown in
+#   Hostinger hPanel → Node.js → your app → "Port".
+#   The server listens on process.env.PORT || 3000, and Hostinger
+#   injects the assigned PORT automatically.  If Hostinger assigns
+#   a different port, update the two "127.0.0.1:3000" URLs below.
+# ============================================================
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Proxy the exact "/api" path (no trailing slash)
+    RewriteRule ^api/?$ http://127.0.0.1:3000/api [P,L]
+
+    # Proxy every request under "/api/" to the Express server
+    RewriteRule ^api/(.*)$ http://127.0.0.1:3000/api/$1 [P,L]
+</IfModule>
