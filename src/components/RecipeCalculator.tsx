@@ -57,6 +57,62 @@ const LOADING_MESSAGES = [
   "Garnishing with pastry-chef level wellness baking tips..."
 ];
 
+// Local fallback recipe — used only when the AI API is unreachable, rate-limited,
+// or the hosting platform returns a non-JSON document (e.g. index.html) for the
+// API request. This guarantees the generator always shows a full, valid recipe
+// instead of crashing with "Unexpected token '<'".
+const FALLBACK_RECIPE: AIRecipe = {
+  recipeName: "Monkaura Protein Brownie Bites",
+  description:
+    "Fudgy, sugar-free brownie bites powered by Monkaura Allulose & Monk Fruit Blend. Zero-spike, zero-net-carb indulgence that bakes and browns exactly like real sugar.",
+  prepTime: "10 mins",
+  cookTime: "22 mins",
+  servings: "12 bites",
+  ingredients: [
+    "1 cup almond flour",
+    "1/3 cup unsweetened cocoa powder",
+    "3 tbsp Monkaura Allulose & Monk Fruit Blend",
+    "2 large eggs",
+    "1/4 cup melted coconut oil",
+    "1 tsp vanilla extract",
+    "1/4 tsp baking powder",
+    "Pinch of sea salt",
+    "1/4 cup sugar-free dark chocolate chips (optional)"
+  ],
+  instructions: [
+    "Preheat oven to 175°C (350°F) and line a small baking dish with parchment paper.",
+    "Whisk together almond flour, cocoa powder, Monkaura sweetener, baking powder, and sea salt in a bowl.",
+    "In a separate bowl, beat eggs, melted coconut oil, and vanilla extract until smooth.",
+    "Fold the wet ingredients into the dry mix until a thick glossy batter forms. Stir in chocolate chips if using.",
+    "Transfer batter to the prepared dish and smooth the top. Bake for 18–22 minutes until just set.",
+    "Cool completely before slicing into 12 bites. Store in an airtight container for up to 5 days."
+  ],
+  nutrition: {
+    calories: "98 kcal",
+    netCarbs: "2g",
+    fat: "8g",
+    protein: "4g",
+    monkauraSavings: "Saves ~12g sugar & ~48 kcal per bite compared to classic brownies."
+  },
+  chefTip:
+    "Let the batter rest for 5 minutes before baking — Monkaura blends evenly and the cocoa deepens for that bakery-style fudgy crumb."
+};
+
+function isRecipeLike(value: unknown): value is AIRecipe {
+  if (!value || typeof value !== "object") return false;
+  const r = value as AIRecipe;
+  return (
+    typeof r.recipeName === "string" &&
+    typeof r.description === "string" &&
+    Array.isArray(r.ingredients) &&
+    r.ingredients.every((i) => typeof i === "string") &&
+    Array.isArray(r.instructions) &&
+    r.instructions.every((i) => typeof i === "string") &&
+    !!r.nutrition &&
+    typeof r.nutrition.netCarbs === "string"
+  );
+}
+
 export default function RecipeCalculator() {
   const [activeTab, setActiveTab] = useState<"calculator" | "generator">("calculator");
   
@@ -140,20 +196,40 @@ export default function RecipeCalculator() {
 
       // If the response is not JSON (e.g. an HTML page returned by a static host),
       // do NOT attempt response.json() — that would throw "Unexpected token '<'".
+      // Instead log the problem and gracefully fall back to the local recipe.
       if (!contentType.includes("application/json")) {
         const responseText = await response.text();
         console.error(
           `Expected JSON but received ${contentType || "unknown content type"}:`,
           responseText.substring(0, 300)
         );
-        throw new Error("Recipe generation failed. Please try again.");
+        setApiError(
+          "AI service is temporarily unavailable, so we prepared a chef-crafted Monkaura recipe for you instead."
+        );
+        setGeneratedRecipe(FALLBACK_RECIPE);
+        return;
       }
 
       const data = await response.json();
+
+      // Defensive schema check — if the payload isn't a valid recipe, fall back.
+      if (!isRecipeLike(data)) {
+        console.error(
+          "API returned an unexpected recipe shape:",
+          JSON.stringify(data).substring(0, 300)
+        );
+        setApiError(
+          "AI service returned an unexpected response, so we prepared a chef-crafted Monkaura recipe for you instead."
+        );
+        setGeneratedRecipe(FALLBACK_RECIPE);
+        return;
+      }
+
       setGeneratedRecipe(data);
     } catch (err: any) {
       console.error("Recipe generation error:", err);
       setApiError("Recipe generation failed. Please try again.");
+      setGeneratedRecipe(FALLBACK_RECIPE);
     } finally {
       setIsGenerating(false);
     }

@@ -212,8 +212,22 @@ app.use((err: any, _req: express.Request, res: express.Response, _next: express.
 });
 
 // Setup Vite or Static assets
+//
+// IMPORTANT: NODE_ENV is frequently UNSET on Cloud Run / AI Studio / `npm start`.
+// Relying only on process.env.NODE_ENV would make the production bundle boot
+// into Vite "dev" middleware mode and serve index.html for unknown routes,
+// which is exactly how a fetch() could receive HTML instead of JSON.
+//
+// Production mode is detected reliably by checking which script is running:
+//   - `npm run dev`            → tsx server.ts        (source   → dev mode)
+//   - `npm start`              → node dist/server.cjs (bundle  → production)
+//   - explicit NODE_ENV=production still forces production mode.
+const isProduction =
+  process.env.NODE_ENV === "production" ||
+  /(?:[\\/]|^)dist[\\/]server\.cjs$/.test(process.argv[1] || "");
+
 async function startServer() {
-  if (process.env.NODE_ENV !== "production") {
+  if (!isProduction) {
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
