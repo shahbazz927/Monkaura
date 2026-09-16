@@ -37,7 +37,11 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
 
             {/* Paragraph Description */}
             <p className="font-sans text-brand-dark/80 text-base sm:text-lg md:text-xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+<<<<<<< HEAD
               Made with premium Allulose and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking.
+=======
+              Introducing Monkaura. A new standard of sweetness, thoughtfully crafted for modern wellness. Made with premium erythritol, Monkaura delivers a smooth and satisfying sweetness experience with a clean-label philosophy at its core. Every detail is designed to bring together exceptional taste, quality, and mindful living, so you can enjoy sweetness in a way that feels lighter, cleaner, and beautifully balanced.
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             </p>
 
             {/* CTA Actions */}
@@ -73,9 +77,15 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
                 <div className="flex items-center gap-1 text-brand-green font-bold text-sm">
                   <Leaf size={16} />
+<<<<<<< HEAD
                   <span>Allulose +</span>
                 </div>
                 <span className="text-xs text-brand-dark/60 mt-0.5">Monk Fruit</span>
+=======
+                  <span>0 Glycemic</span>
+                </div>
+                <span className="text-xs text-brand-dark/60 mt-0.5">Keto Approved</span>
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
               </div>
 
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
@@ -105,6 +115,7 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
               
               {/* Floating feature highlights */}
               <div className="absolute bottom-6 left-6 right-6 bg-brand-green/95 backdrop-blur-md rounded-2xl p-4 text-white border border-brand-mint/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-xl">
+<<<<<<< HEAD
                 <p className="text-xs font-brand tracking-widest text-brand-gold font-bold mb-1 uppercase">Allulose + Monk Fruit</p>
                 <div className="grid grid-cols-3 gap-2 text-center text-[10px]">
                   <div className="border-r border-white/20 py-1">
@@ -118,6 +129,21 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
                   <div className="py-1">
                     <span className="block font-bold text-brand-mint">Sugar-like</span>
                     <span className="text-[8px] text-white/70">TASTE</span>
+=======
+                <p className="text-xs font-brand tracking-widest text-brand-gold font-bold mb-1 uppercase">Allulose Baking Blend</p>
+                <div className="grid grid-cols-3 gap-2 text-center text-[10px]">
+                  <div className="border-r border-white/20 py-1">
+                    <span className="block font-bold text-brand-mint">0</span>
+                    <span className="text-[8px] text-white/70">CALORIES</span>
+                  </div>
+                  <div className="border-r border-white/20 py-1">
+                    <span className="block font-bold text-brand-mint">Flat</span>
+                    <span className="text-[8px] text-white/70">GLYCEMIC</span>
+                  </div>
+                  <div className="py-1">
+                    <span className="block font-bold text-brand-mint">100%</span>
+                    <span className="text-[8px] text-white/70">NATURAL</span>
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                   </div>
                 </div>
               </div>

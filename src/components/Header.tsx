@@ -108,6 +108,7 @@ export default function Header({ cart, onOpenCart }: HeaderProps) {
           </Link>
 
           <Link 
+<<<<<<< HEAD
             to="/reviews" 
             className={`transition-all duration-200 cursor-pointer py-1 ${
               currentPage === "/reviews" 
@@ -119,6 +120,8 @@ export default function Header({ cart, onOpenCart }: HeaderProps) {
           </Link>
 
           <Link 
+=======
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             to="/about" 
             className={`transition-all duration-200 cursor-pointer py-1 ${
               currentPage === "/about" 
@@ -212,6 +215,7 @@ export default function Header({ cart, onOpenCart }: HeaderProps) {
             Allulose Story
           </Link>
           <Link 
+<<<<<<< HEAD
             to="/reviews" 
             onClick={handleNavClick}
             className={`text-left py-2 px-3 rounded-lg font-medium transition-colors text-sm ${
@@ -223,6 +227,8 @@ export default function Header({ cart, onOpenCart }: HeaderProps) {
             Reviews
           </Link>
           <Link 
+=======
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             to="/about" 
             onClick={handleNavClick}
             className={`text-left py-2 px-3 rounded-lg font-medium transition-colors text-sm ${

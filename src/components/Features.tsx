@@ -25,11 +25,19 @@ export default function Features() {
     {
       icon: (
         <div className="w-12 h-12 rounded-full border border-brand-mint/40 flex justify-center items-center bg-brand-green-dark group-hover:bg-brand-mint group-hover:text-brand-green text-brand-mint transition-all duration-300">
+<<<<<<< HEAD
           <Activity size={20} />
         </div>
       ),
       title: "1:1",
       subtitle: "Replacement"
+=======
+          <HeartPulse size={20} />
+        </div>
+      ),
+      title: "Diabetic",
+      subtitle: "Friendly"
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     },
     {
       icon: (
@@ -37,17 +45,30 @@ export default function Features() {
           <Leaf size={20} />
         </div>
       ),
+<<<<<<< HEAD
       title: "Bakes &",
       subtitle: "Browns"
+=======
+      title: "Keto",
+      subtitle: "Friendly"
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     },
     {
       icon: (
         <div className="w-12 h-12 rounded-full border border-brand-mint/40 flex justify-center items-center bg-brand-green-dark group-hover:bg-brand-mint group-hover:text-brand-green text-brand-mint transition-all duration-300">
+<<<<<<< HEAD
           <HeartPulse size={20} />
         </div>
       ),
       title: "Allulose +",
       subtitle: "Monk Fruit"
+=======
+          <Activity size={20} />
+        </div>
+      ),
+      title: "Zero Glycemic",
+      subtitle: "Index"
+>>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     },
     {
       icon: (
