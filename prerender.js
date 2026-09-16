@@ -21,12 +21,8 @@ const routes = [
   '/allulose-story',
   '/about',
   '/contact',
-<<<<<<< HEAD
   '/privacy',
   '/reviews'
-=======
-  '/privacy'
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
 ];
 
 (async () => {

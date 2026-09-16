@@ -21,13 +21,10 @@ import CheckoutModal from "./components/CheckoutModal";
 import Footer from "./components/Footer";
 import { PageLoader } from "./components/PageLoader";
 import ProductSpotlight from "./components/ProductSpotlight";
-<<<<<<< HEAD
 import AlluloseVsErythritol from "./components/AlluloseVsErythritol";
 import NewToAllulose from "./components/NewToAllulose";
 import HomepageReviews from "./components/HomepageReviews";
 import Reviews from "./components/Reviews";
-=======
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
 import { Product, CartItem } from "./types";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import { Helmet } from "react-helmet-async";
@@ -110,33 +107,19 @@ export default function App() {
     <div className="min-h-screen bg-brand-cream flex flex-col justify-between selection:bg-brand-mint selection:text-brand-green relative antialiased">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/" />
-<<<<<<< HEAD
         <title>Monkaura | Pure Natural Sweetness — Allulose + Monk Fruit 100g & 200g</title>
         <meta name="description" content="Made with premium Allulose and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking. Available in 100g Trial Pack & 200g." />
         <meta name="keywords" content="Monkaura, monk fruit sweetener India, allulose sweetener, 100g 200g, 1:1 sugar replacement" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Monkaura | Allulose + Monk Fruit — 100g & 200g" />
         <meta property="og:description" content="Made with premium Allulose and Monk Fruit. Sugar-like taste, 1:1 sugar replacement for everyday tea, coffee, cooking and baking." />
-=======
-        <title>Monkaura | Pure Natural Sweetness</title>
-        <meta name="description" content="Monkaura is India's premier health sweetener startup using pure Allulose and Monk Fruit. Bakes, browns, and tastes exactly like real sugar with zero calories." />
-        <meta name="keywords" content="Monkaura, monk fruit sweetener India, allulose sweetener, zero calorie sugar, keto sweetener India, diabetic friendly sweetener, sugar free baking India" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Monkaura | Pure Natural Sweetness" />
-        <meta property="og:description" content="Monkaura is India's premier health sweetener startup using pure Allulose and Monk Fruit. Bakes, browns, and tastes exactly like real sugar with zero calories." />
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
         <meta property="og:url" content="https://monkaura.in/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
-<<<<<<< HEAD
         <meta name="twitter:title" content="Monkaura | Allulose + Monk Fruit — 100g & 200g" />
         <meta name="twitter:description" content="Made with premium Allulose and Monk Fruit. Sugar-like taste, 1:1 replacement for tea, coffee, cooking and baking." />
-=======
-        <meta name="twitter:title" content="Monkaura | Pure Natural Sweetness" />
-        <meta name="twitter:description" content="Monkaura is India's premier health sweetener startup using pure Allulose and Monk Fruit. Bakes, browns, and tastes exactly like real sugar with zero calories." />
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
         <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta name="twitter:site" content="@monkaura" />
         <script type="application/ld+json">
@@ -144,11 +127,7 @@ export default function App() {
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "MONKAURA",
-<<<<<<< HEAD
             "description": "Monkaura is made with Allulose and Monk Fruit for everyday sweetness.",
-=======
-            "description": "India's premier health sweetener startup using pure Allulose and Monk Fruit.",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             "slogan": "Pure Natural Sweetness",
             "url": "https://monkaura.in",
             "logo": "https://monkaura.in/logo.png",
@@ -169,11 +148,7 @@ export default function App() {
             "name": "MONKAURA",
             "alternateName": "Monkaura Sweeteners",
             "url": "https://monkaura.in/",
-<<<<<<< HEAD
             "description": "Monkaura — Allulose + Monk Fruit, sugar-like taste, 1:1 replacement for everyday beverages, cooking and baking. 100g & 200g packs."
-=======
-            "description": "India's premier zero-calorie, zero-spike Allulose & Monk Fruit sweetener brand. Bakes, browns, and tastes exactly like real sugar."
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
           })}
         </script>
       </Helmet>
@@ -208,19 +183,13 @@ export default function App() {
                       onStoryClick={() => navigate("/allulose-story")}
                     />
                     <Features />
-<<<<<<< HEAD
                     <AlluloseVsErythritol />
-=======
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     <ProductSpotlight
                       onAddToCart={handleAddToCart}
                       onExploreAll={() => navigate("/products")}
                     />
-<<<<<<< HEAD
                     <NewToAllulose />
                     <HomepageReviews />
-=======
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     <FAQ />
                   </motion.div>
                 }
@@ -276,7 +245,6 @@ export default function App() {
                 <ContactForm />
               </motion.div>
             } />
-<<<<<<< HEAD
             <Route path="/reviews" element={
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
@@ -287,8 +255,6 @@ export default function App() {
                 <Reviews />
               </motion.div>
             } />
-=======
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             <Route path="/privacy" element={
               <motion.div
                 initial={{ opacity: 0, y: 10 }}

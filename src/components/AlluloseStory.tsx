@@ -7,7 +7,6 @@ export default function AlluloseStory() {
 
   const keyFacts = [
     {
-<<<<<<< HEAD
       title: "Designed for Cooking and Baking",
       description: "Allulose is a rare sugar with a taste and functionality closer to sugar. It can brown and caramelize, making it suitable for many cooking and baking applications where a sugar-like result is desired.",
       stat: "Bakes & Browns"
@@ -21,21 +20,6 @@ export default function AlluloseStory() {
       title: "Allulose vs Erythritol",
       description: "Allulose is a rare sugar, while erythritol is a sugar alcohol that can have a cooling sensation and different baking characteristics. Monkaura is made with Allulose and Monk Fruit, not erythritol.",
       stat: "Allulose + Monk Fruit"
-=======
-      title: "Seamless Culinary Browning",
-      description: "Unlike erythritol, which simply melts and recrystallizes, Allulose possesses the same chemical structure as traditional fructose. This allows it to undergo genuine Maillard browning and caramelization. Create glossy flans, crispy cookies, and rich syrupy Indian sweets like Gulab Jamun effortlessly.",
-      stat: "Bakes & Browns 1:1"
-    },
-    {
-      title: "Banish the Bloat Discomfort",
-      description: "Most category-standard sweeteners use Erythritol, a sugar alcohol that ferments in the colon, drawing water and causing painful bloating, gas, and stomach cramps. Allulose is absorbed in the small intestine and excreted unchanged, providing zero digestive stress.",
-      stat: "Zero Digestive Bloat"
-    },
-    {
-      title: "No Minty Cooling Aftertaste",
-      description: "Ever felt a weird minty, cold sensation in your throat when eating sugar-free desserts? That's the high heat-of-solution property of erythritol. Monkaura's pure Allulose delivers a clean, warm, rounded sweetness identical to real cane sugar.",
-      stat: "0% Cooling Effect"
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     }
   ];
 
@@ -43,33 +27,19 @@ export default function AlluloseStory() {
     <section id="allulose-story" className="py-16 md:py-24 bg-brand-mint-light/40 border-t border-b border-brand-green/10">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/allulose-story" />
-<<<<<<< HEAD
         <title>Allulose vs Erythritol — Allulose + Monk Fruit | Monkaura</title>
         <meta name="description" content="Confused between Allulose and Erythritol? Learn the simple difference. Allulose is a rare sugar with sugar-like taste that can brown and caramelize. Monkaura is made with Allulose and Monk Fruit, not erythritol." />
         <meta name="keywords" content="allulose vs erythritol, what is allulose, rare sugar sweetener, allulose baking, erythritol vs allulose" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Allulose vs Erythritol — Allulose + Monk Fruit | Monkaura" />
         <meta property="og:description" content="Learn the difference between Allulose and Erythritol. Monkaura is made with Allulose and Monk Fruit for everyday tea, coffee, cooking and baking." />
-=======
-        <title>The Science of Allulose vs Erythritol | Monkaura Rare Sugar Story</title>
-        <meta name="description" content="Discover why Monkaura banished erythritol for natural Allulose — the rare sugar that bakes, browns, and caramelizes like real sugar with zero bloating, zero cooling aftertaste, and 0 glycemic index." />
-        <meta name="keywords" content="allulose vs erythritol, what is allulose, rare sugar sweetener, allulose baking benefits, no bloating sweetener, natural sugar substitute India" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="The Science of Allulose vs Erythritol | Monkaura Rare Sugar Story" />
-        <meta property="og:description" content="Discover why Monkaura banished erythritol for natural Allulose — bakes, browns, and caramelizes like real sugar with zero bloating and 0 glycemic index." />
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
         <meta property="og:url" content="https://monkaura.in/allulose-story" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
-<<<<<<< HEAD
         <meta name="twitter:title" content="Allulose vs Erythritol — Allulose + Monk Fruit | Monkaura" />
         <meta name="twitter:description" content="Learn the simple difference between Allulose and Erythritol. Monkaura is made with Allulose and Monk Fruit." />
-=======
-        <meta name="twitter:title" content="The Science of Allulose vs Erythritol | Monkaura Rare Sugar Story" />
-        <meta name="twitter:description" content="Discover why Monkaura banished erythritol for natural Allulose — bakes, browns, and caramelizes like real sugar with zero bloating." />
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
         <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -99,28 +69,16 @@ export default function AlluloseStory() {
           <div className="lg:col-span-6 space-y-4">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-green/10 text-brand-green font-bold text-xs uppercase tracking-wider">
               <Award size={14} />
-<<<<<<< HEAD
               <span>Allulose + Monk Fruit</span>
             </div>
             <h1 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl text-brand-dark tracking-tight leading-tight">
               Allulose vs Erythritol: <br />
               <span className="text-brand-green">What’s the Difference?</span>
-=======
-              <span>The Science of Rare Sugar</span>
-            </div>
-            <h1 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl text-brand-dark tracking-tight leading-tight">
-              Why We Banished Erythritol <br />
-              for Natural <span className="text-brand-green">Allulose</span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             </h1>
           </div>
           <div className="lg:col-span-6">
             <p className="text-brand-dark/80 text-sm sm:text-base leading-relaxed font-light">
-<<<<<<< HEAD
               Confused between Allulose and Erythritol? Here’s a simple breakdown. Allulose is a rare sugar with a sugar-like taste, while erythritol is a sugar alcohol with different characteristics. Monkaura is made with Allulose and Monk Fruit.
-=======
-              Most brands bulk their monk fruit with cheap, industrial erythritol (sugar alcohol). At Monkaura, we believe sweetening your food should never compromise your gut comfort, baking quality, or taste buds. Here is why our raw Allulose blend stands completely apart.
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             </p>
           </div>
         </div>
@@ -220,7 +178,6 @@ export default function AlluloseStory() {
                     <td className="p-4 sm:p-6 text-gray-500">Yes (High Calorie)</td>
                   </tr>
 
-<<<<<<< HEAD
                   {/* Row 2: Digestive notes */}
                   <tr>
                     <td className="p-4 sm:p-6 font-semibold text-brand-dark">Sweetener Type</td>
@@ -231,29 +188,10 @@ export default function AlluloseStory() {
                       <span>Sugar alcohol</span>
                     </td>
                     <td className="p-4 sm:p-6 text-gray-500">Sugar</td>
-=======
-                  {/* Row 2: Digestive Stress / Bloat */}
-                  <tr>
-                    <td className="p-4 sm:p-6 font-semibold text-brand-dark">Bloating & Stomach Gas?</td>
-                    <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <div className="flex items-center gap-1.5">
-                        <Check size={16} className="bg-brand-green text-white rounded-full p-0.5" />
-                        <span>Zero (No digestive fermentation)</span>
-                      </div>
-                    </td>
-                    <td className="p-4 sm:p-6 text-gray-500">
-                      <div className="flex items-center gap-1.5">
-                        <ShieldAlert size={14} className="text-red-500 font-bold" />
-                        <span>High (Ferments in gut)</span>
-                      </div>
-                    </td>
-                    <td className="p-4 sm:p-6 text-gray-500">Low (But feeds gut yeast)</td>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                   </tr>
 
                   {/* Row 3: Cooling throat effect */}
                   <tr>
-<<<<<<< HEAD
                     <td className="p-4 sm:p-6 font-semibold text-brand-dark">Cooling Sensation</td>
                     <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
                       <span>Sugar-like taste</span>
@@ -273,33 +211,6 @@ export default function AlluloseStory() {
                     <td className="p-4 sm:p-6 text-gray-500">Different baking characteristics</td>
                     <td className="p-4 sm:p-6 text-gray-500">
                       <span>Browns and caramelizes</span>
-=======
-                    <td className="p-4 sm:p-6 font-semibold text-brand-dark">Cooling Throat Sensation?</td>
-                    <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <div className="flex items-center gap-1.5">
-                        <Check size={16} className="bg-brand-green text-white rounded-full p-0.5" />
-                        <span>None (Warm sweet taste)</span>
-                      </div>
-                    </td>
-                    <td className="p-4 sm:p-6 text-gray-500">
-                      <div className="flex items-center gap-1.5">
-                        <ShieldAlert size={14} className="text-red-500 font-bold" />
-                        <span>Strong (Cold minty throat)</span>
-                      </div>
-                    </td>
-                    <td className="p-4 sm:p-6 text-gray-500">None</td>
-                  </tr>
-
-                  {/* Row 4: Glycemic index */}
-                  <tr>
-                    <td className="p-4 sm:p-6 font-semibold text-brand-dark">Glycemic Index (GI)</td>
-                    <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <span>0 (Ideal for Diabetics)</span>
-                    </td>
-                    <td className="p-4 sm:p-6 text-gray-500">0</td>
-                    <td className="p-4 sm:p-6 text-gray-500">
-                      <span className="text-red-500 font-semibold">65 (Spikes Blood Sugar)</span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     </td>
                   </tr>
 

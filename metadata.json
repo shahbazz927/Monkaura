@@ -1,10 +1,6 @@
 {
   "name": "Monkaura",
-<<<<<<< HEAD
   "description": "Monkaura — Allulose + Monk Fruit 100g Trial Pack, sugar-like taste, 1:1 replacement",
-=======
-  "description": "Premium Erythritol-Free Monk Fruit & Prebiotic Sweetener Start-up Website",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -66,11 +66,7 @@ export default function ProductDetailsModal({
           </button>
           <div className="flex items-center gap-1">
             <span className="text-[10px] font-bold text-brand-green bg-brand-green/10 px-2.5 py-1 rounded-full uppercase tracking-wider">
-<<<<<<< HEAD
               {product.weight || "200g"} Pack
-=======
-              {product.weight || "100g"} Pack
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             </span>
           </div>
           <button
@@ -149,14 +145,6 @@ export default function ProductDetailsModal({
                   <span className="text-xs font-semibold text-brand-gold bg-brand-gold/10 px-2 py-0.5 rounded tracking-wide uppercase">
                     {product.subtitle}
                   </span>
-<<<<<<< HEAD
-=======
-                  <div className="flex items-center text-yellow-500 text-xs">
-                    <Star size={12} fill="currentColor" className="mr-0.5" />
-                    <span className="font-bold text-brand-dark mr-1">4.9</span>
-                    <span className="text-brand-dark/40">(148 reviews)</span>
-                  </div>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                 </div>
 
                 <h2 className="font-serif font-black text-2xl sm:text-3xl text-brand-dark leading-tight">
@@ -195,11 +183,7 @@ export default function ProductDetailsModal({
               {/* Interactive Purchase CTA Panel */}
               <div className="bg-brand-cream/30 border border-brand-cream/80 p-4 rounded-2xl space-y-4">
                 <div className="flex items-center justify-between text-xs text-brand-dark/60 font-medium">
-<<<<<<< HEAD
                   <span>Pack Size: <strong>{product.weight || "200g"}</strong></span>
-=======
-                  <span>Pack Size: <strong>{product.weight || "100g"}</strong></span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                   {product.outOfStock ? (
                     <span className="text-red-600 font-bold">Out of Stock</span>
                   ) : (
@@ -258,11 +242,7 @@ export default function ProductDetailsModal({
                           ) : (
                             <>
                               <ShoppingCart size={16} />
-<<<<<<< HEAD
                               <span>Try Monkaura</span>
-=======
-                              <span>Add to Cart</span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                             </>
                           )}
                         </button>
@@ -327,30 +307,18 @@ export default function ProductDetailsModal({
                   <div className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-brand-green mt-2 shrink-0" />
                     <p>
-<<<<<<< HEAD
                       <strong>Allulose:</strong> A rare sugar with a sugar-like taste that is designed for cooking and baking and can brown and caramelize.
-=======
-                      <strong>Natural Rare Sugar Allulose:</strong> A naturally occurring simple sugar found in figs, raisins, and jackfruit. Its chemical profile doesn't raise blood glucose or spark insulin surges, yet it bakes, browns, and caramelizes identically to standard sucrose.
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-brand-green mt-2 shrink-0" />
                     <p>
-<<<<<<< HEAD
                       <strong>Monk Fruit Extract:</strong> Provides clean sweetness. Monkaura is made with Allulose and Monk Fruit, not erythritol.
-=======
-                      <strong>Pure Monk Fruit Extract (Mogroside V 50%):</strong> Picked by hand in native subtropical forests. Pure concentrated extract provides clean sweetness without standard artificial aftertastes.
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     </p>
                   </div>
                   <div className="flex items-start gap-3 bg-white p-3 rounded-xl border border-gray-100">
                     <ShieldCheck className="text-brand-green shrink-0 mt-0.5" size={16} />
-<<<<<<< HEAD
                     <span className="text-xs font-semibold text-brand-green">Made with Allulose and Monk Fruit. Designed for everyday use in tea, coffee, cooking and baking.</span>
-=======
-                    <span className="text-xs font-semibold text-brand-green">100% Clean-Label Guarantee: We use only premium-grade ingredients to craft a perfect, clean sweetness.</span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                   </div>
                 </div>
               )}
@@ -383,16 +351,11 @@ export default function ProductDetailsModal({
                     <Award className="text-brand-gold shrink-0" size={24} />
                     <div>
                       <span className="font-bold text-brand-dark block text-xs sm:text-sm">FSSAI License Certified</span>
-<<<<<<< HEAD
                       <span className="text-[10px] sm:text-xs text-brand-dark/50 font-light">Lic No: 13624999000449</span>
-=======
-                      <span className="text-[10px] sm:text-xs text-brand-dark/50 font-light">Registered Central Lic No: 13624999000449</span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     </div>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
                     <div className="p-3 bg-white rounded-xl border border-gray-100 text-center">
-<<<<<<< HEAD
                       <span className="font-bold text-brand-green block text-xs">Allulose + Monk Fruit</span>
                       <span className="text-[10px] text-brand-dark/50">Not made with erythritol</span>
                     </div>
@@ -403,18 +366,6 @@ export default function ProductDetailsModal({
                     <div className="p-3 bg-white rounded-xl border border-gray-100 text-center">
                       <span className="font-bold text-brand-green block text-xs">Everyday Use</span>
                       <span className="text-[10px] text-brand-dark/50">Tea, coffee & recipes</span>
-=======
-                      <span className="font-bold text-brand-green block text-xs">Diabetic-Safe</span>
-                      <span className="text-[10px] text-brand-dark/50">Zero Glycemic Index</span>
-                    </div>
-                    <div className="p-3 bg-white rounded-xl border border-gray-100 text-center">
-                      <span className="font-bold text-brand-green block text-xs">Keto Friendly</span>
-                      <span className="text-[10px] text-brand-dark/50">0g Net Carbs</span>
-                    </div>
-                    <div className="p-3 bg-white rounded-xl border border-gray-100 text-center">
-                      <span className="font-bold text-brand-green block text-xs">Gut-Friendly</span>
-                      <span className="text-[10px] text-brand-dark/50">Sucralose & Aspartame Free</span>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
                     </div>
                   </div>
                 </div>
@@ -422,41 +373,10 @@ export default function ProductDetailsModal({
             </div>
           </div>
 
-<<<<<<< HEAD
           {/* Reviews link — genuine reviews only */}
           <div className="bg-brand-cream/40 border border-gray-100 rounded-xl p-4 flex items-center justify-between">
             <p className="text-xs text-brand-dark/70 font-light">Want to see what customers say? Visit our Reviews page.</p>
             <a href="/reviews" className="text-xs font-bold text-brand-green hover:underline">Read Reviews →</a>
-=======
-          {/* Authentic Review Testimonial Strip */}
-          <div className="space-y-4">
-            <h4 className="font-serif font-bold text-base text-brand-dark">Customer Reviews (148)</h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-4 bg-brand-cream/10 border border-gray-100 rounded-xl space-y-2">
-                <div className="flex justify-between items-center text-xs">
-                  <span className="font-bold text-brand-dark">Priya R. (Bengaluru)</span>
-                  <div className="flex text-yellow-500">
-                    {[...Array(5)].map((_, i) => <Star key={i} size={10} fill="currentColor" />)}
-                  </div>
-                </div>
-                <p className="text-[11px] sm:text-xs text-brand-dark/70 font-light italic">
-                  "I was highly skeptical since other monk fruit sweeteners have that cold, chemical aftertaste. This blend is magical. Made delicious badam halwa and no one could tell it had zero sugar!"
-                </p>
-              </div>
-
-              <div className="p-4 bg-brand-cream/10 border border-gray-100 rounded-xl space-y-2">
-                <div className="flex justify-between items-center text-xs">
-                  <span className="font-bold text-brand-dark">Dr. Amit S. (Mumbai)</span>
-                  <div className="flex text-yellow-500">
-                    {[...Array(5)].map((_, i) => <Star key={i} size={10} fill="currentColor" />)}
-                  </div>
-                </div>
-                <p className="text-[11px] sm:text-xs text-brand-dark/70 font-light italic">
-                  "As a healthcare professional, I'm extremely happy about this clean-label blend. My gut feels great, and it allows me to enjoy sweet chai guilt-free."
-                </p>
-              </div>
-            </div>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
           </div>
 
         </div>

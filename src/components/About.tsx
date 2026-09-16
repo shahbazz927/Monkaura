@@ -6,7 +6,6 @@ export default function About() {
   const brandPillars = [
     {
       icon: <Leaf className="text-brand-green" size={24} />,
-<<<<<<< HEAD
       title: "Allulose + Monk Fruit",
       description: "Made with premium Allulose and Monk Fruit for a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking."
     },
@@ -19,20 +18,6 @@ export default function About() {
       icon: <HeartPulse className="text-brand-green" size={24} />,
       title: "Everyday Use",
       description: "Crafted for daily enjoyment — from morning tea and coffee to cooking and baking — with a focus on taste and familiarity."
-=======
-      title: "100% Earth-Sourced",
-      description: "Our monk fruit extract and natural rare Allulose are strictly sourced from premium, verified non-GMO natural farms. No laboratory synthetics or chemicals."
-    },
-    {
-      icon: <ShieldCheck className="text-brand-green" size={24} />,
-      title: "Gut-First Safety",
-      description: "We are the first brand in India to completely eliminate erythritol, xylitol, and malititol, shielding our consumers from gas, bloating, and digestive discomfort."
-    },
-    {
-      icon: <HeartPulse className="text-brand-green" size={24} />,
-      title: "Perfect Diabetic Harmony",
-      description: "Our rare Allulose sugar is metabolically inert. It passes through your system with exactly zero spikes in insulin or blood glucose levels. Clean sweetness for all."
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     }
   ];
 
@@ -40,32 +25,19 @@ export default function About() {
     <section id="about" className="py-16 md:py-24 bg-brand-cream relative overflow-hidden">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/about" />
-<<<<<<< HEAD
         <title>About Monkaura | Allulose + Monk Fruit — 200g</title>
         <meta name="description" content="Discover the Monkaura story: made with Allulose and Monk Fruit, sugar-like taste, 1:1 replacement for tea, coffee, cooking and baking. FSSAI certified, crafted in Hyderabad." />
         <meta name="keywords" content="about Monkaura, Monkaura story, monk fruit sweetener brand India, FSSAI certified sweetener, allulose brand India, Hyderabad health startup" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="About Monkaura | Allulose + Monk Fruit — 200g" />
         <meta property="og:description" content="Discover the Monkaura story: made with Allulose and Monk Fruit, sugar-like taste, 1:1 replacement for everyday use." />
-=======
-        <title>About Monkaura | India's Pure Monk Fruit & Allulose Sweetener Brand</title>
-        <meta name="description" content="Discover the Monkaura story: India's first erythritol-free, FSSAI-certified monk fruit & allulose sweetener brand. Zero calories, zero glycemic impact, crafted in Hyderabad for health-conscious Indian homes." />
-        <meta name="keywords" content="about Monkaura, Monkaura story, monk fruit sweetener brand India, FSSAI certified sweetener, allulose brand India, Hyderabad health startup" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="About Monkaura | India's Pure Monk Fruit & Allulose Sweetener Brand" />
-        <meta property="og:description" content="Discover the Monkaura story: India's first erythritol-free, FSSAI-certified monk fruit & allulose sweetener brand. Zero calories, zero glycemic impact." />
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
         <meta property="og:url" content="https://monkaura.in/about" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Monkaura | India's Pure Monk Fruit & Allulose Sweetener Brand" />
-<<<<<<< HEAD
         <meta name="twitter:description" content="Discover the Monkaura story: Allulose + Monk Fruit, sugar-like taste, 1:1 replacement. FSSAI certified." />
-=======
-        <meta name="twitter:description" content="Discover the Monkaura story: India's first erythritol-free, FSSAI-certified monk fruit & allulose sweetener brand." />
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
         <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -93,11 +65,7 @@ export default function About() {
             "@type": "AboutPage",
             "name": "About Monkaura",
             "url": "https://monkaura.in/about",
-<<<<<<< HEAD
             "description": "Monkaura is made with Allulose and Monk Fruit for everyday sweetness — 1:1 sugar replacement for tea, coffee, cooking and baking.",
-=======
-            "description": "Monkaura is India's premier erythritol-free monk fruit and allulose sweetener brand, founded with a mission to bring natural sweetness to every Indian home.",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
             "mainEntity": {
               "@type": "Organization",
               "name": "MONKAURA",
@@ -126,15 +94,9 @@ export default function About() {
           <div className="lg:col-span-5 order-2 lg:order-1 space-y-6">
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-md space-y-2">
-<<<<<<< HEAD
                 <span className="text-3xl font-serif font-black text-brand-green block">1:1</span>
                 <span className="text-xs font-bold text-brand-dark/60 uppercase tracking-widest block">Sugar Replacement</span>
                 <p className="text-[10px] text-brand-dark/50 font-light">Designed for everyday use in beverages, cooking and baking.</p>
-=======
-                <span className="text-3xl font-serif font-black text-brand-green block">0g</span>
-                <span className="text-xs font-bold text-brand-dark/60 uppercase tracking-widest block">Net Glycemic Impact</span>
-                <p className="text-[10px] text-brand-dark/50 font-light">Safe for type-1 and type-2 diabetes.</p>
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
               </div>
 
               <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-md space-y-2">
@@ -179,11 +141,7 @@ export default function About() {
                 We realized that standard sugar-free options simply weren't good enough. Stevia carries a bitter, medicinal metallic aftertaste, while cheap bulk sweeteners leave an uncomfortable cooling throat sensation and cause digestive issues.
               </p>
               <p>
-<<<<<<< HEAD
                 <strong>Monkaura was crafted for everyday sweetness.</strong> By blending pure Monk Fruit extracts with premium Allulose, we created a 1:1 sugar replacement designed to taste like sugar and work well in everyday tea, coffee, cooking and baking.
-=======
-                <strong>Monkaura was born out of a desire for perfection.</strong> By blending hand-picked pure Monk Fruit extracts with premium natural Allulose, we achieved the holy grail of sweetening: a sugar replacement that behaves, bakes, and tastes exactly like real sugar, with zero calories, zero stomach bloat, and zero glycemic spikes.
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
               </p>
             </div>
 

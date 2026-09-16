@@ -20,11 +20,7 @@ export default function Footer() {
             <Logo size="md" light={true} />
           </div>
           <p className="text-brand-mint/60 text-xs leading-relaxed font-light">
-<<<<<<< HEAD
             Monkaura is made with Allulose and Monk Fruit, delivering a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking.
-=======
-            Monkaura is India’s premier health sweetener startup. By replacing cheap, gut-disturbing erythritol with natural rare Allulose, we deliver a 100% natural, calorie-free sweetness that behaves, bakes, and tastes exactly like sugar.
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
           </p>
           <div className="pt-2 flex justify-center md:justify-start gap-3">
             {/* Payment Trust Badges */}
@@ -62,14 +58,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-<<<<<<< HEAD
               <Link to="/reviews" onClick={handleNavClick} className="hover:text-white hover:underline transition-all cursor-pointer">
                 Reviews
               </Link>
             </li>
             <li>
-=======
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
               <Link to="/zero-sugar-recipes" onClick={handleNavClick} className="hover:text-white hover:underline transition-all cursor-pointer">
                 Dessert Recipe Convertor
               </Link>

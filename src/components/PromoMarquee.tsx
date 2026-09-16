@@ -22,38 +22,22 @@ export const PromoMarquee: React.FC<PromoMarqueeProps> = ({
   const defaultItems: MarqueeItem[] = [
     {
       id: "fssai",
-<<<<<<< HEAD
       text: "FSSAI Certified Allulose & Monk Fruit Blend",
-=======
-      text: "FSSAI Certified Allulose & Monk Fruit Blends",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
       icon: <Award size={14} className="text-brand-mint shrink-0" />,
     },
     {
       id: "natural",
-<<<<<<< HEAD
       text: "Allulose + Monk Fruit • Sugar-like Taste",
-=======
-      text: "100% Natural Sweetener • Zero Sugar Spike",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
       icon: <Sparkles size={14} className="text-brand-mint shrink-0" />,
     },
     {
       id: "diabetic",
-<<<<<<< HEAD
       text: "1:1 Sugar Replacement for Everyday Use",
-=======
-      text: "Sugar-Free, Keto & Diabetic Friendly Blends",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
       icon: <ShieldCheck size={14} className="text-brand-mint shrink-0" />,
     },
     {
       id: "guilt-free",
-<<<<<<< HEAD
       text: "100g & 200g Packs — Try the Sweetness",
-=======
-      text: "100% Guilt-Free Sweetness with Zero Calories",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
       icon: <Heart size={14} className="text-brand-mint shrink-0" />,
     },
   ];

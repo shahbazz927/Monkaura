@@ -2,7 +2,6 @@ import { Product, DessertRecipe } from "./types";
 
 export const PRODUCTS: Product[] = [
   {
-<<<<<<< HEAD
     id: "pouch-100g",
     name: "Monkaura 100g Trial Pack",
     subtitle: "Try the sweetness. Make the switch.",
@@ -14,58 +13,11 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://lh3.googleusercontent.com/d/143BnzkxizdMZyOnoSYszI1Y60LvYaVJ-",
       "https://lh3.googleusercontent.com/d/1suD2ux9Ua3YPiS8XSJ4HapGQ5nU9GDko",
-=======
-    id: "jar",
-    name: "Premium Glass Jar",
-    subtitle: "Elegant • Reusable • Eco-Friendly",
-    description: "Sourced from the finest monk fruit and pure Allulose. Packaged in a beautiful premium glass jar with an organic wooden lid, complete with premium jute wrapping. Ideal for your kitchen counter, and easily reusable.",
-    price: 745,
-    originalPrice: 945,
-    weight: "500g",
-    image: "https://lh3.googleusercontent.com/d/1AAOaAQzQ7xJWEQeYPUjAtO4tjUn-oPih",
-    images: [
-      "https://lh3.googleusercontent.com/d/1AAOaAQzQ7xJWEQeYPUjAtO4tjUn-oPih",
-      "https://lh3.googleusercontent.com/d/1ClhI8Mfa8hGBHqOZ57xeuEz5CoI_Vjuq",
-      "https://lh3.googleusercontent.com/d/1FWbPXWibrysmQR9MuxtjA8jsywB-2xzx",
-      "https://lh3.googleusercontent.com/d/15ZEgY07a_k8cAl9no3QfaadMVxXOJ2vm"
-    ],
-    tagline: "Premium wooden lid jar - perfect for elegant kitchens",
-    benefits: ["100% Natural Sweetness", "Dissolves Perfectly", "Perfect for Baking", "Zero Bitter Aftertaste"],
-    features: [
-      { title: "Bakes like Sugar", description: "Caramelizes and browns beautifully under heat, delivering authentic sugar-like behavior." },
-      { title: "Eco-Friendly Jar", description: "Heavy-duty reusable glass jar with an elegant wood cap, ready to be upcycled." },
-      { title: "Zero Aftertaste", description: "Pure monk fruit and premium Allulose blend delivers clean sweetness without metallic bite." }
-    ],
-    nutritionFacts: {
-      servingSize: "1 tsp (4g)",
-      addedSugar: "0g",
-      totalFat: "0g",
-      sodium: "0mg",
-      totalCarb: "0g",
-      energy: "0kcal",
-      protein: "0g"
-    },
-    outOfStock: true
-  },
-  {
-    id: "pouch",
-    name: "Convenient Stand-up Pouch",
-    subtitle: "Resealable • Portable • Hygienic",
-    description: "Designed for active modern lifestyles. This resealable high-barrier stand-up pouch keeps your Monkaura sweetener fresh, dry, and easily scoopable. Easy to store in compact pantries or carry with you on the go.",
-    price: 149,
-    originalPrice: 189,
-    weight: "100g",
-    image: "https://lh3.googleusercontent.com/d/1suD2ux9Ua3YPiS8XSJ4HapGQ5nU9GDko",
-    images: [
-      "https://lh3.googleusercontent.com/d/1suD2ux9Ua3YPiS8XSJ4HapGQ5nU9GDko",
-      "https://lh3.googleusercontent.com/d/143BnzkxizdMZyOnoSYszI1Y60LvYaVJ-",
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
       "https://lh3.googleusercontent.com/d/10IMxezUHvZMMEZAjQ9gQrRnGZrzKUojg",
       "https://lh3.googleusercontent.com/d/1MktL8WR2I36WIBNLmbfNLsHW-8tUbpiG",
       "https://lh3.googleusercontent.com/d/1MD8pmRsKpyiN3CAiJz_S8GTnN_dLQfIs",
       "https://lh3.googleusercontent.com/d/186Nc-GJ4C9ZT6KsAUhELSdaDPwBBl6AM"
     ],
-<<<<<<< HEAD
     tagline: "100g Trial Pack — Allulose + Monk Fruit, 1:1 sugar replacement",
     benefits: [
       "Allulose + Monk Fruit",
@@ -78,14 +30,6 @@ export const PRODUCTS: Product[] = [
       { title: "Allulose + Monk Fruit", description: "Made with premium Allulose and Monk Fruit for a smooth, sugar-like sweetness." },
       { title: "1:1 Replacement", description: "Use it 1:1 in place of sugar in tea, coffee, cooking and baking." },
       { title: "Everyday Use", description: "Designed for everyday beverages, cooking and baking with a clean taste." }
-=======
-    tagline: "Resealable premium pouch - easy to pour and carry",
-    benefits: ["Easy Pour Lock", "High-barrier protection", "Highly Portable", "Saves Pantry Space"],
-    features: [
-      { title: "Double Seal Guard", description: "Locks moisture out and preserves sweetness potency perfectly." },
-      { title: "Lightweight Design", description: "Flexible food-safe packaging with a low carbon footprint." },
-      { title: "Keto & Diabetic Safe", description: "Zero glycemic impact, perfect for daily tea, coffee, and shakes." }
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     ],
     nutritionFacts: {
       servingSize: "1 tsp (4g)",
@@ -98,7 +42,6 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-<<<<<<< HEAD
     id: "pouch",
     name: "Monkaura 200g",
     subtitle: "Try the sweetness. Make the switch.",
@@ -124,28 +67,6 @@ export const PRODUCTS: Product[] = [
       { title: "Allulose + Monk Fruit", description: "Made with premium Allulose and Monk Fruit for a smooth, sugar-like sweetness." },
       { title: "1:1 Replacement", description: "Use it 1:1 in place of sugar in tea, coffee, cooking and baking." },
       { title: "Everyday Use", description: "Designed for everyday beverages, cooking and baking with a clean taste." }
-=======
-    id: "box",
-    name: "Value Pack Retail Box",
-    subtitle: "Protective • Premium • Gift-Ready",
-    description: "The classic Monkaura retail box. Safely stores the sweetener inside a premium, food-safe resealable inner liner to lock in freshness. Presented in an elegant dark green embossed box, making it a perfect healthy gift for loved ones.",
-    price: 1490,
-    originalPrice: 1890,
-    weight: "1Kg",
-    outOfStock: true,
-    image: "https://lh3.googleusercontent.com/d/1twjmmqJAFRmR9oRdm7sqV7UPhrENavS2",
-    images: [
-      "https://lh3.googleusercontent.com/d/1twjmmqJAFRmR9oRdm7sqV7UPhrENavS2",
-      "https://lh3.googleusercontent.com/d/1xQl211PZDSiB2czByvFA8BwSYoWkuzl4",
-      "https://lh3.googleusercontent.com/d/1vISsunPhjn_ZzSvgQbVgwmSScpM5vvyU"
-    ],
-    tagline: "Value cardboard retail box with inner lining",
-    benefits: ["Resealable Inner Liner", "Elegant Embossed Gifting", "Double Protective Layer", "Great Value Pack"],
-    features: [
-      { title: "Premium Gifting", description: "Clean, high-end packaging that makes health-conscious gifting easy." },
-      { title: "Lined Freshness", description: "Double-walled protection locks freshness for up to 24 months." },
-      { title: "100% Raw Ingredients", description: "Sugar-like granularity that measures 1:1 like real sugar in all recipes." }
->>>>>>> b5259fe256e7ff30f725139b6150aae851290a81
     ],
     nutritionFacts: {
       servingSize: "1 tsp (4g)",
