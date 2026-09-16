@@ -1,0 +1,6 @@
+{
+  "name": "Monkaura",
+  "description": "Monkaura — Allulose + Monk Fruit 100g Trial Pack, sugar-like taste, 1:1 replacement",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

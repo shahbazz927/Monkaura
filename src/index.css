@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-brand: "Cinzel", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-green: #063b27;
+  --color-brand-green-light: #0b5e3f;
+  --color-brand-green-dark: #032115;
+  --color-brand-mint: #d6f5eb;
+  --color-brand-mint-light: #f0fbf7;
+  --color-brand-gold: #c5a059;
+  --color-brand-gold-dark: #a9823c;
+  --color-brand-orange: #d96b00;
+  --color-brand-cream: #fbfcf9;
+  --color-brand-dark: #0a2219;
+
+  --animate-marquee: marquee 30s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Custom underline and style enhancements */
+.highlight-underline {
+  position: relative;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.highlight-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: #51b897;
+  opacity: 0.7;
+  border-radius: 2px;
+}
+
+/* Base custom styles */
+body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-dark);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
