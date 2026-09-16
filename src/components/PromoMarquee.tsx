@@ -21,23 +21,23 @@ export const PromoMarquee: React.FC<PromoMarqueeProps> = ({
   // High-quality default promotional items tailored for MentorBridge
   const defaultItems: MarqueeItem[] = [
     {
-      id: "fssai",
-      text: "FSSAI Certified Allulose & Monk Fruit Blend",
-      icon: <Award size={14} className="text-brand-mint shrink-0" />,
-    },
-    {
-      id: "natural",
-      text: "Allulose + Monk Fruit • Sugar-like Taste",
+      id: "erythritol",
+      text: "Erythritol + Monk Fruit — For Everyday Cooking",
       icon: <Sparkles size={14} className="text-brand-mint shrink-0" />,
     },
     {
-      id: "diabetic",
-      text: "1:1 Sugar Replacement for Everyday Use",
-      icon: <ShieldCheck size={14} className="text-brand-mint shrink-0" />,
+      id: "fssai",
+      text: "FSSAI Certified • 1:1 Sugar Replacement",
+      icon: <Award size={14} className="text-brand-mint shrink-0" />,
     },
     {
-      id: "guilt-free",
-      text: "100g & 200g Packs — Try the Sweetness",
+      id: "shipping",
+      text: "Free Shipping Above 3 Packs",
+      icon: <Truck size={14} className="text-brand-mint shrink-0" />,
+    },
+    {
+      id: "packs",
+      text: "100g Trial Pack & 200g Everyday Pack",
       icon: <Heart size={14} className="text-brand-mint shrink-0" />,
     },
   ];

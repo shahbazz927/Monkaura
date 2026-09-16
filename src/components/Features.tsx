@@ -46,7 +46,7 @@ export default function Features() {
           <HeartPulse size={20} />
         </div>
       ),
-      title: "Allulose +",
+      title: "Erythritol +",
       subtitle: "Monk Fruit"
     },
     {

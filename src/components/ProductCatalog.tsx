@@ -38,11 +38,11 @@ export default function ProductCatalog({ onAddToCart }: ProductCatalogProps) {
     <section id="products" className="py-16 md:py-24 bg-brand-cream relative">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/products" />
-        <title>Monkaura Packs — 100g Trial Pack & 200g — Allulose & Monk Fruit</title>
-        <meta name="description" content="Choose Monkaura 100g Trial Pack or 200g — made with premium Allulose and Monk Fruit. Sugar-like taste, 1:1 replacement for tea, coffee, cooking and baking." />
-        <meta name="keywords" content="Monkaura 100g, Monkaura 200g, allulose sweetener India, monk fruit sweetener" />
-        <meta property="og:title" content="Monkaura Packs — 100g & 200g — Allulose & Monk Fruit" />
-        <meta property="og:description" content="100g Trial Pack and 200g — Allulose + Monk Fruit, sugar-like taste, 1:1 replacement." />
+        <title>Monkaura Packs — 100g Trial & 200g Everyday — Erythritol + Monk Fruit</title>
+        <meta name="description" content="Monkaura Erythritol + Monk Fruit — 100g Trial Pack & 200g Everyday Pack. 1:1 sugar replacement for tea, coffee, cooking and baking." />
+        <meta name="keywords" content="Monkaura 100g, Monkaura 200g, erythritol monk fruit India" />
+        <meta property="og:title" content="Monkaura — Erythritol + Monk Fruit 100g & 200g" />
+        <meta property="og:description" content="Erythritol + Monk Fruit — 100g Trial & 200g Everyday. 1:1 sugar replacement." />
         <meta property="og:url" content="https://monkaura.in/products" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={PRODUCTS[0]?.image} />
@@ -59,7 +59,7 @@ export default function ProductCatalog({ onAddToCart }: ProductCatalogProps) {
             ...PRODUCTS.map(p => ({
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: `${p.name} - Monkaura Allulose & Monk Fruit (${p.weight})`,
+              name: `${p.name} - Monkaura Erythritol & Monk Fruit (${p.weight})`,
               image: p.image,
               description: p.description,
               sku: `MONKAURA-${p.id.toUpperCase()}`,
@@ -72,15 +72,18 @@ export default function ProductCatalog({ onAddToCart }: ProductCatalogProps) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-green text-white text-xs font-bold tracking-widest uppercase">Erythritol + Monk Fruit — Available Now</span>
           <h1 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl text-brand-dark tracking-tight">
             Choose Your <span className="text-brand-green">Monkaura</span> Pack
           </h1>
-          <p className="text-brand-dark/60 font-bold text-sm tracking-widest uppercase">Try the sweetness. Make the switch.</p>
-          <p className="text-brand-dark/70 text-sm sm:text-base font-light">Try Monkaura 100g Trial Pack or 200g — Allulose + Monk Fruit for everyday tea, coffee, cooking and baking.</p>
-          <div className="flex justify-center items-center gap-3">
-            <div className="h-[2px] w-12 bg-brand-gold rounded" />
-            <span className="text-brand-gold font-brand tracking-widest text-xs font-semibold uppercase">Allulose + Monk Fruit</span>
-            <div className="h-[2px] w-12 bg-brand-gold rounded" />
+          <p className="text-brand-dark/60 font-bold text-sm tracking-widest uppercase">100g Trial Pack • 200g Everyday Pack</p>
+          <p className="text-brand-dark/70 text-sm sm:text-base font-light"><strong className="font-semibold text-brand-dark">Erythritol + Monk Fruit</strong> for everyday tea, coffee, cooking and baking.</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center pt-1">
+            <div className="flex justify-center items-center gap-3">
+              <div className="h-[2px] w-12 bg-brand-green rounded" />
+              <span className="text-brand-green font-brand tracking-widest text-xs font-semibold uppercase">Available Now: Erythritol + Monk Fruit</span>
+              <div className="h-[2px] w-12 bg-brand-green rounded" />
+            </div>
           </div>
         </div>
 
@@ -131,7 +134,7 @@ export default function ProductCatalog({ onAddToCart }: ProductCatalogProps) {
                       <button onClick={() => setActiveTabs(prev => ({ ...prev, [product.id]: "features" }))} className={`flex-1 text-center pb-1.5 font-bold ${tab === "features" ? "text-brand-green border-b-2 border-brand-green" : "text-brand-dark/50"} cursor-pointer`}>Highlights</button>
                     </div>
                     <div className="pt-1.5 min-h-[90px] flex flex-col justify-center">
-                      {tab === "taste" && <p className="text-[11px] text-brand-dark/80 italic leading-relaxed">Made with premium Allulose and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking. Use 1:1 like sugar.</p>}
+                      {tab === "taste" && <p className="text-[11px] text-brand-dark/80 italic leading-relaxed">Made with premium Erythritol and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness for everyday use in tea, coffee, cooking and baking. Use 1:1 like sugar.</p>}
                       {tab === "nutrition" && (
                         <div className="grid grid-cols-2 gap-y-1.5 gap-x-3 text-[10px]">
                           <div className="flex justify-between border-b border-gray-100 pb-0.5"><span className="text-brand-dark/50">Serve Size</span><span className="font-semibold">{product.nutritionFacts.servingSize}</span></div>

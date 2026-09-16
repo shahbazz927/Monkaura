@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { Sparkles, Check, X, ShieldAlert, Award, ArrowRight } from "lucide-react";
+import { Sparkles, Check, X, ShieldAlert, Award, ArrowRight, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function AlluloseStory() {
   const [activeFeature, setActiveFeature] = useState<number>(0);
@@ -13,12 +14,12 @@ export default function AlluloseStory() {
     },
     {
       title: "Sugar-like Taste",
-      description: "Monkaura is made with Allulose and Monk Fruit to deliver a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking.",
+      description: "Allulose has a smooth, sugar-like sweetness without a cooling sensation, making it especially close to sugar.",
       stat: "Sugar-like Taste"
     },
     {
       title: "Allulose vs Erythritol",
-      description: "Allulose is a rare sugar, while erythritol is a sugar alcohol that can have a cooling sensation and different baking characteristics. Monkaura is made with Allulose and Monk Fruit, not erythritol.",
+      description: "Allulose is a rare sugar, while erythritol is a sugar alcohol that can have a cooling sensation and different baking characteristics.",
       stat: "Allulose + Monk Fruit"
     }
   ];
@@ -27,19 +28,19 @@ export default function AlluloseStory() {
     <section id="allulose-story" className="py-16 md:py-24 bg-brand-mint-light/40 border-t border-b border-brand-green/10">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/allulose-story" />
-        <title>Allulose vs Erythritol — Allulose + Monk Fruit | Monkaura</title>
-        <meta name="description" content="Confused between Allulose and Erythritol? Learn the simple difference. Allulose is a rare sugar with sugar-like taste that can brown and caramelize. Monkaura is made with Allulose and Monk Fruit, not erythritol." />
-        <meta name="keywords" content="allulose vs erythritol, what is allulose, rare sugar sweetener, allulose baking, erythritol vs allulose" />
+        <title>Allulose vs Erythritol — Erythritol Available Now, Allulose Coming Soon | Monkaura</title>
+        <meta name="description" content="Monkaura Erythritol + Monk Fruit is available now in 100g & 200g. Allulose + Monk Fruit is coming soon. Learn the difference — Allulose browns & caramelizes like sugar." />
+        <meta name="keywords" content="allulose vs erythritol, what is allulose, rare sugar, allulose coming soon, erythritol monk fruit" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Allulose vs Erythritol — Allulose + Monk Fruit | Monkaura" />
-        <meta property="og:description" content="Learn the difference between Allulose and Erythritol. Monkaura is made with Allulose and Monk Fruit for everyday tea, coffee, cooking and baking." />
+        <meta property="og:title" content="Allulose vs Erythritol — Erythritol Now, Allulose Coming Soon | Monkaura" />
+        <meta property="og:description" content="Erythritol + Monk Fruit available now. Allulose + Monk Fruit coming soon — learn why it bakes & browns like sugar." />
         <meta property="og:url" content="https://monkaura.in/allulose-story" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Allulose vs Erythritol — Allulose + Monk Fruit | Monkaura" />
-        <meta name="twitter:description" content="Learn the simple difference between Allulose and Erythritol. Monkaura is made with Allulose and Monk Fruit." />
+        <meta name="twitter:title" content="Allulose vs Erythritol — Erythritol Now, Allulose Coming Soon" />
+        <meta name="twitter:description" content="Erythritol + Monk Fruit available now. Allulose + Monk Fruit coming soon." />
         <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -64,10 +65,27 @@ export default function AlluloseStory() {
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
+        {/* Coming Soon Banner */}
+        <div className="max-w-5xl mx-auto mb-10">
+          <div className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-2xl p-[1.5px] shadow-lg">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-[14px] px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center shrink-0"><Clock size={18} /></div>
+                <div>
+                  <p className="text-xs font-black tracking-widest uppercase text-amber-800">Allulose + Monk Fruit — Coming Soon</p>
+                  <p className="text-sm text-brand-dark/80 font-light">Our next blend — designed to bake, brown & caramelize like real sugar. Stay tuned.</p>
+                </div>
+              </div>
+              <Link to="/products" className="shrink-0 px-6 py-2.5 bg-brand-green hover:bg-brand-green-light text-white font-bold text-xs rounded-xl shadow-md whitespace-nowrap">Shop Erythritol + Monk Fruit Now</Link>
+            </div>
+          </div>
+
+        </div>
+
         {/* Editorial Title */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
           <div className="lg:col-span-6 space-y-4">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-green/10 text-brand-green font-bold text-xs uppercase tracking-wider">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-brand-green/10 text-brand-green font-bold text-xs uppercase tracking-wider">
               <Award size={14} />
               <span>Allulose + Monk Fruit</span>
             </div>
@@ -78,7 +96,7 @@ export default function AlluloseStory() {
           </div>
           <div className="lg:col-span-6">
             <p className="text-brand-dark/80 text-sm sm:text-base leading-relaxed font-light">
-              Confused between Allulose and Erythritol? Here’s a simple breakdown. Allulose is a rare sugar with a sugar-like taste, while erythritol is a sugar alcohol with different characteristics. Monkaura is made with Allulose and Monk Fruit.
+              Confused between Allulose and Erythritol? Here’s a simple breakdown. Allulose is a rare sugar with a sugar-like taste, while erythritol is a sugar alcohol with different characteristics.
             </p>
           </div>
         </div>
@@ -133,7 +151,7 @@ export default function AlluloseStory() {
 
               <div className="flex items-center gap-2 text-xs font-semibold text-brand-gold bg-brand-mint-light p-3 rounded-xl border border-brand-mint/40">
                 <Sparkles size={16} />
-                <span>Monkaura delivers authentic gourmet sweetness with zero metabolic consequences.</span>
+                <span>Monkaura Erythritol + Monk Fruit is available now for everyday use.</span>
               </div>
             </div>
           </div>
@@ -143,7 +161,8 @@ export default function AlluloseStory() {
         <div className="max-w-4xl mx-auto space-y-6">
           <div className="text-center">
             <span className="text-xs font-bold text-brand-gold uppercase tracking-widest block mb-2">Compare & Choose</span>
-            <h2 className="font-serif font-bold text-2xl text-brand-dark">How Monkaura Compares to Others</h2>
+            <h2 className="font-serif font-bold text-2xl text-brand-dark">How They Compare</h2>
+
           </div>
 
           <div className="bg-white rounded-3xl border border-gray-100 shadow-xl overflow-hidden">
@@ -153,79 +172,83 @@ export default function AlluloseStory() {
                   <tr className="bg-brand-green text-white text-xs sm:text-sm">
                     <th className="p-4 sm:p-6 font-serif">Sweetener Metric</th>
                     <th className="p-4 sm:p-6 font-serif bg-brand-green-dark border-l border-brand-green-light">
-                      MÕNKAURA (Allulose)
+                      Erythritol + Monk Fruit
                     </th>
-                    <th className="p-4 sm:p-6 font-serif text-white/70">Standard Monk Fruit (Erythritol)</th>
+                    <th className="p-4 sm:p-6 font-serif bg-amber-600 border-l border-amber-500">
+                      Allulose + Monk Fruit
+                    </th>
                     <th className="p-4 sm:p-6 font-serif text-white/70">White Sugar</th>
                   </tr>
                 </thead>
                 <tbody className="text-xs sm:text-sm divide-y divide-gray-100 font-sans">
-                  {/* Row 1: Baking & Caramelization */}
                   <tr>
                     <td className="p-4 sm:p-6 font-semibold text-brand-dark">Caramelizes & Browns?</td>
-                    <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <div className="flex items-center gap-1.5">
-                        <Check size={16} className="bg-brand-green text-white rounded-full p-0.5" />
-                        <span>Yes (Undergoes Maillard browning)</span>
-                      </div>
-                    </td>
                     <td className="p-4 sm:p-6 text-gray-500">
                       <div className="flex items-center gap-1.5">
-                        <X size={14} className="text-red-500 font-bold" />
-                        <span>No (Re-crystallizes/gritty)</span>
+                        <X size={14} className="text-amber-500 font-bold" />
+                        <span>Limited (different behavior)</span>
+                      </div>
+                    </td>
+                    <td className="p-4 sm:p-6 bg-amber-50 border-l border-amber-100 text-amber-800 font-bold">
+                      <div className="flex items-center gap-1.5">
+                        <Check size={16} className="bg-amber-500 text-white rounded-full p-0.5" />
+                        <span>Yes — Browns like sugar</span>
                       </div>
                     </td>
                     <td className="p-4 sm:p-6 text-gray-500">Yes (High Calorie)</td>
                   </tr>
-
-                  {/* Row 2: Digestive notes */}
                   <tr>
                     <td className="p-4 sm:p-6 font-semibold text-brand-dark">Sweetener Type</td>
                     <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <span>Rare sugar</span>
+                      <span>Sugar alcohol + Monk Fruit</span>
                     </td>
-                    <td className="p-4 sm:p-6 text-gray-500">
-                      <span>Sugar alcohol</span>
+                    <td className="p-4 sm:p-6 bg-amber-50 border-l border-amber-100 text-amber-800 font-bold">
+                      <span>Rare sugar + Monk Fruit</span>
                     </td>
                     <td className="p-4 sm:p-6 text-gray-500">Sugar</td>
                   </tr>
-
-                  {/* Row 3: Cooling throat effect */}
                   <tr>
                     <td className="p-4 sm:p-6 font-semibold text-brand-dark">Cooling Sensation</td>
                     <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <span>Sugar-like taste</span>
+                      <span>Mild cooling possible</span>
                     </td>
-                    <td className="p-4 sm:p-6 text-gray-500">
-                      <span>Can have a cooling sensation</span>
+                    <td className="p-4 sm:p-6 bg-amber-50 border-l border-amber-100 text-amber-800 font-bold">
+                      <span>Sugar-like, no cooling</span>
                     </td>
                     <td className="p-4 sm:p-6 text-gray-500">Sugar-like taste</td>
                   </tr>
-
-                  {/* Row 4: Baking */}
                   <tr>
-                    <td className="p-4 sm:p-6 font-semibold text-brand-dark">Baking Behaviour</td>
+                    <td className="p-4 sm:p-6 font-semibold text-brand-dark">Best For</td>
                     <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
-                      <span>Can brown and caramelize</span>
+                      <span>Everyday tea, coffee, cooking & baking</span>
                     </td>
-                    <td className="p-4 sm:p-6 text-gray-500">Different baking characteristics</td>
+                    <td className="p-4 sm:p-6 bg-amber-50 border-l border-amber-100 text-amber-800 font-bold">
+                      <span>Same + enhanced baking & Indian sweets</span>
+                    </td>
                     <td className="p-4 sm:p-6 text-gray-500">
-                      <span>Browns and caramelizes</span>
+                      <span>All uses (high calorie)</span>
                     </td>
                   </tr>
-
-                  {/* Row 5: Calories */}
                   <tr>
                     <td className="p-4 sm:p-6 font-semibold text-brand-dark">Calories / serving</td>
                     <td className="p-4 sm:p-6 bg-brand-mint-light/40 border-l border-brand-mint/40 text-brand-green font-bold">
                       <span>0 kcal</span>
                     </td>
-                    <td className="p-4 sm:p-6 text-gray-500">0 kcal</td>
+                    <td className="p-4 sm:p-6 bg-amber-50 border-l border-amber-100 text-amber-800 font-bold">
+                      <span>0 kcal</span>
+                    </td>
                     <td className="p-4 sm:p-6 text-gray-500">16 kcal / tsp</td>
                   </tr>
                 </tbody>
               </table>
             </div>
+          </div>
+
+          <div className="text-center pt-4">
+            <Link to="/products" className="inline-flex items-center gap-2 px-8 py-3 bg-brand-green hover:bg-brand-green-light text-white font-bold text-sm rounded-xl shadow-md">
+              Shop Erythritol + Monk Fruit Now <ArrowRight size={16} />
+            </Link>
+
           </div>
         </div>
 

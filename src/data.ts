@@ -4,8 +4,8 @@ export const PRODUCTS: Product[] = [
   {
     id: "pouch-100g",
     name: "Monkaura 100g Trial Pack",
-    subtitle: "Try the sweetness. Make the switch.",
-    description: "Curious about Allulose? Start small. Try Monkaura in your everyday tea, coffee, cooking and baking before committing to a larger pack.",
+    subtitle: "Erythritol + Monk Fruit — Try before you stock up",
+    description: "New to Monkaura? Start with the 100g Trial Pack — Erythritol + Monk Fruit for everyday tea, coffee, cooking and baking. Same great sweetness, perfect for trying before you switch your kitchen.",
     price: 149,
     originalPrice: 189,
     weight: "100g",
@@ -18,16 +18,16 @@ export const PRODUCTS: Product[] = [
       "https://lh3.googleusercontent.com/d/1MD8pmRsKpyiN3CAiJz_S8GTnN_dLQfIs",
       "https://lh3.googleusercontent.com/d/186Nc-GJ4C9ZT6KsAUhELSdaDPwBBl6AM"
     ],
-    tagline: "100g Trial Pack — Allulose + Monk Fruit, 1:1 sugar replacement",
+    tagline: "100g Trial Pack — Erythritol + Monk Fruit, 1:1 sugar replacement • Available Now",
     benefits: [
-      "Allulose + Monk Fruit",
+      "Erythritol + Monk Fruit — Available Now",
       "Sugar-like taste",
       "1:1 sugar replacement",
       "Great for beverages, cooking & baking",
       "100g Trial Pack"
     ],
     features: [
-      { title: "Allulose + Monk Fruit", description: "Made with premium Allulose and Monk Fruit for a smooth, sugar-like sweetness." },
+      { title: "Erythritol + Monk Fruit", description: "Made with premium Erythritol and Monk Fruit for a smooth, sugar-like sweetness. Our current everyday blend — available now." },
       { title: "1:1 Replacement", description: "Use it 1:1 in place of sugar in tea, coffee, cooking and baking." },
       { title: "Everyday Use", description: "Designed for everyday beverages, cooking and baking with a clean taste." }
     ],
@@ -43,9 +43,9 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "pouch",
-    name: "Monkaura 200g",
-    subtitle: "Try the sweetness. Make the switch.",
-    description: "Curious about Allulose? Start small. Try Monkaura in your everyday tea, coffee, cooking and baking before committing to a larger pack.",
+    name: "Monkaura 200g Everyday Pack",
+    subtitle: "Erythritol + Monk Fruit — For everyday cooking",
+    description: "Made for regular use — 200g Erythritol + Monk Fruit delivers smooth, sugar-like sweetness for your daily tea, coffee, cooking and baking. The everyday pack for families who've made the switch.",
     price: 298,
     originalPrice: 378,
     weight: "200g",
@@ -55,16 +55,16 @@ export const PRODUCTS: Product[] = [
       "https://lh3.googleusercontent.com/d/1nC47WZHdCjnJL8L0GQTphrXwaq94EGdQ",
       "https://lh3.googleusercontent.com/d/1ANEydBa2VuPFLmR9hY_BCovWknExYqxU"
     ],
-    tagline: "200g — Allulose + Monk Fruit, 1:1 sugar replacement",
+    tagline: "200g Everyday Pack — Erythritol + Monk Fruit, 1:1 sugar replacement • Available Now",
     benefits: [
-      "Allulose + Monk Fruit",
+      "Erythritol + Monk Fruit — Available Now",
       "Sugar-like taste",
       "1:1 sugar replacement",
       "Great for beverages, cooking & baking",
-      "200g Pack"
+      "200g Everyday Pack"
     ],
     features: [
-      { title: "Allulose + Monk Fruit", description: "Made with premium Allulose and Monk Fruit for a smooth, sugar-like sweetness." },
+      { title: "Erythritol + Monk Fruit", description: "Made with premium Erythritol and Monk Fruit for a smooth, sugar-like sweetness. Our current everyday blend — available now." },
       { title: "1:1 Replacement", description: "Use it 1:1 in place of sugar in tea, coffee, cooking and baking." },
       { title: "Everyday Use", description: "Designed for everyday beverages, cooking and baking with a clean taste." }
     ],

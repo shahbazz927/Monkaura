@@ -107,19 +107,19 @@ export default function App() {
     <div className="min-h-screen bg-brand-cream flex flex-col justify-between selection:bg-brand-mint selection:text-brand-green relative antialiased">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/" />
-        <title>Monkaura | Pure Natural Sweetness — Allulose + Monk Fruit 100g & 200g</title>
-        <meta name="description" content="Made with premium Allulose and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking. Available in 100g Trial Pack & 200g." />
-        <meta name="keywords" content="Monkaura, monk fruit sweetener India, allulose sweetener, 100g 200g, 1:1 sugar replacement" />
+        <title>Monkaura | Erythritol + Monk Fruit — 100g Trial & 200g Everyday</title>
+        <meta name="description" content="Monkaura Erythritol + Monk Fruit — 100g Trial Pack & 200g Everyday Pack for everyday tea, coffee, cooking and baking. 1:1 sugar replacement." />
+        <meta name="keywords" content="Monkaura, monk fruit sweetener India, erythritol monk fruit, 100g 200g, 1:1 sugar replacement" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Monkaura | Allulose + Monk Fruit — 100g & 200g" />
-        <meta property="og:description" content="Made with premium Allulose and Monk Fruit. Sugar-like taste, 1:1 sugar replacement for everyday tea, coffee, cooking and baking." />
+        <meta property="og:title" content="Monkaura | Erythritol + Monk Fruit — 100g & 200g" />
+        <meta property="og:description" content="Erythritol + Monk Fruit in 100g Trial & 200g Everyday packs. 1:1 sugar replacement for everyday tea, coffee, cooking and baking." />
         <meta property="og:url" content="https://monkaura.in/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta property="og:site_name" content="Monkaura" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Monkaura | Allulose + Monk Fruit — 100g & 200g" />
-        <meta name="twitter:description" content="Made with premium Allulose and Monk Fruit. Sugar-like taste, 1:1 replacement for tea, coffee, cooking and baking." />
+        <meta name="twitter:title" content="Monkaura | Erythritol + Monk Fruit — 100g & 200g" />
+        <meta name="twitter:description" content="Erythritol + Monk Fruit — 100g & 200g. 1:1 sugar replacement for everyday use." />
         <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1zmMde7Iqqf35tqNasnoR0Fl_uv-5v5iw" />
         <meta name="twitter:site" content="@monkaura" />
         <script type="application/ld+json">
@@ -127,7 +127,7 @@ export default function App() {
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "MONKAURA",
-            "description": "Monkaura is made with Allulose and Monk Fruit for everyday sweetness.",
+            "description": "Monkaura Erythritol + Monk Fruit for everyday sweetness.",
             "slogan": "Pure Natural Sweetness",
             "url": "https://monkaura.in",
             "logo": "https://monkaura.in/logo.png",
@@ -148,7 +148,7 @@ export default function App() {
             "name": "MONKAURA",
             "alternateName": "Monkaura Sweeteners",
             "url": "https://monkaura.in/",
-            "description": "Monkaura — Allulose + Monk Fruit, sugar-like taste, 1:1 replacement for everyday beverages, cooking and baking. 100g & 200g packs."
+            "description": "Monkaura Erythritol + Monk Fruit — 100g Trial & 200g Everyday for everyday beverages, cooking and baking."
           })}
         </script>
       </Helmet>

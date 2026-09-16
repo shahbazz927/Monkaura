@@ -21,23 +21,21 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
             {/* Left Text Column */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
 
+            {/* Availability badge */}
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-brand-green/15 shadow-sm text-xs font-bold">
+              <span className="w-2 h-2 rounded-full bg-brand-green animate-pulse" />
+              <span className="text-brand-green">Erythritol + Monk Fruit — Available Now</span>
+            </div>
+
             {/* Main Editorial Header */}
             <h1 className="font-serif font-extrabold text-4xl sm:text-5xl md:text-6xl text-brand-dark tracking-tight leading-[1.1]">
-              The Only Monk Fruit <br className="hidden sm:inline" />
-              Sweetener That{" "}
-              <span className="text-brand-green italic font-semibold">
-                Bakes
-              </span>
-              ,{" "}
-              <span className="text-brand-green italic font-semibold">
-                Browns & Caramelizes
-              </span>{" "}
-              Like Real Sugar.
+              Everyday Sweetness, <br className="hidden sm:inline" />
+              <span className="text-brand-green italic font-semibold">Without the Sugar.</span>
             </h1>
 
             {/* Paragraph Description */}
             <p className="font-sans text-brand-dark/80 text-base sm:text-lg md:text-xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
-              Made with premium Allulose and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking.
+              Made with premium Erythritol and Monk Fruit, Monkaura delivers smooth, sugar-like sweetness for everyday tea, coffee, cooking and baking.
             </p>
 
             {/* CTA Actions */}
@@ -73,9 +71,9 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
                 <div className="flex items-center gap-1 text-brand-green font-bold text-sm">
                   <Leaf size={16} />
-                  <span>Allulose +</span>
+                  <span>Erythritol +</span>
                 </div>
-                <span className="text-xs text-brand-dark/60 mt-0.5">Monk Fruit</span>
+                <span className="text-xs text-brand-dark/60 mt-0.5">Monk Fruit • Available Now</span>
               </div>
 
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
@@ -105,7 +103,7 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
               
               {/* Floating feature highlights */}
               <div className="absolute bottom-6 left-6 right-6 bg-brand-green/95 backdrop-blur-md rounded-2xl p-4 text-white border border-brand-mint/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-xl">
-                <p className="text-xs font-brand tracking-widest text-brand-gold font-bold mb-1 uppercase">Allulose + Monk Fruit</p>
+                <p className="text-xs font-brand tracking-widest text-brand-gold font-bold mb-1 uppercase">Erythritol + Monk Fruit</p>
                 <div className="grid grid-cols-3 gap-2 text-center text-[10px]">
                   <div className="border-r border-white/20 py-1">
                     <span className="block font-bold text-brand-mint">1:1</span>

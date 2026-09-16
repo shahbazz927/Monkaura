@@ -24,14 +24,13 @@ export default function AlluloseVsErythritol() {
             <div className="inline-flex items-center gap-2 mb-4">
               <span className="w-2 h-2 rounded-full bg-brand-green" />
               <h3 className="font-serif font-bold text-lg text-brand-dark">Allulose</h3>
-              <span className="ml-2 text-[10px] font-bold tracking-widest uppercase bg-brand-green text-white px-2 py-0.5 rounded-full">Used in Monkaura</span>
+              <span className="ml-2 text-[10px] font-bold tracking-widest uppercase bg-brand-green/10 text-brand-green px-2 py-0.5 rounded-full">Rare sugar</span>
             </div>
             <ul className="space-y-2.5 text-sm text-brand-dark/80 font-light">
               <li className="flex gap-2"><span className="text-brand-green font-bold">•</span> Rare sugar</li>
               <li className="flex gap-2"><span className="text-brand-green font-bold">•</span> Sugar-like taste</li>
-              <li className="flex gap-2"><span className="text-brand-green font-bold">•</span> Designed for cooking and baking</li>
               <li className="flex gap-2"><span className="text-brand-green font-bold">•</span> Can brown and caramelize</li>
-              <li className="flex gap-2"><span className="text-brand-green font-bold">•</span> Used in Monkaura</li>
+              <li className="flex gap-2"><span className="text-brand-green font-bold">•</span> Designed for cooking and baking</li>
             </ul>
           </div>
 
@@ -39,22 +38,21 @@ export default function AlluloseVsErythritol() {
             <div className="inline-flex items-center gap-2 mb-4">
               <span className="w-2 h-2 rounded-full bg-gray-300" />
               <h3 className="font-serif font-bold text-lg text-brand-dark">Erythritol</h3>
-              <span className="ml-2 text-[10px] font-bold tracking-widest uppercase bg-gray-100 text-brand-dark/60 px-2 py-0.5 rounded-full">NOT used in Monkaura</span>
+              <span className="ml-2 text-[10px] font-bold tracking-widest uppercase bg-gray-100 text-brand-dark/60 px-2 py-0.5 rounded-full">Sugar alcohol</span>
             </div>
             <ul className="space-y-2.5 text-sm text-brand-dark/70 font-light">
               <li className="flex gap-2"><span className="text-brand-dark/40 font-bold">•</span> Sugar alcohol</li>
               <li className="flex gap-2"><span className="text-brand-dark/40 font-bold">•</span> Can have a cooling sensation</li>
               <li className="flex gap-2"><span className="text-brand-dark/40 font-bold">•</span> Different baking characteristics</li>
-              <li className="flex gap-2"><span className="text-brand-dark/40 font-bold">•</span> May crystallize in some recipes</li>
-              <li className="flex gap-2"><span className="text-brand-dark/40 font-bold">•</span> NOT used in Monkaura</li>
+              <li className="flex gap-2"><span className="text-brand-dark/40 font-bold">•</span> 0 kcal, widely used</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-8 bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm text-center space-y-4">
-          <h3 className="font-serif font-bold text-lg text-brand-dark">Why did we choose Allulose?</h3>
+          <h3 className="font-serif font-bold text-lg text-brand-dark">Why Monkaura uses Erythritol + Monk Fruit</h3>
           <p className="text-sm text-brand-dark/70 font-light max-w-2xl mx-auto leading-relaxed">
-            We chose Allulose because it offers a more sugar-like experience and works well across everyday beverages, cooking and baking.
+            Erythritol + Monk Fruit delivers smooth, sugar-like sweetness for everyday tea, coffee, cooking and baking — available now in 100g Trial & 200g Everyday packs.
           </p>
           <Link
             to="/allulose-story"

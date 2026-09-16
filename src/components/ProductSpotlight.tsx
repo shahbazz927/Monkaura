@@ -55,15 +55,15 @@ export default function ProductSpotlight({ onAddToCart, onExploreAll }: ProductS
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16 space-y-3">
-          <span className="text-brand-orange text-xs font-black bg-brand-orange/10 px-4 py-1.5 rounded-full uppercase tracking-widest inline-flex items-center gap-1.5">
+          <span className="text-brand-green text-xs font-black bg-brand-green/10 px-4 py-1.5 rounded-full uppercase tracking-widest inline-flex items-center gap-1.5">
             <Sparkles size={12} />
-            <span>100g & 200g Packs</span>
+            <span>Erythritol + Monk Fruit — Available Now • 100g Trial & 200g Everyday</span>
           </span>
           <h2 className="font-serif font-extrabold text-3xl sm:text-4xl md:text-5xl text-brand-dark tracking-tight leading-tight">
             Choose Your <span className="text-brand-green">Monkaura</span> Pack
           </h2>
           <p className="text-brand-dark/70 text-sm sm:text-base font-light">
-            Try the sweetness. Make the switch. — 100g Trial Pack or 200g for everyday use.
+            <strong className="font-semibold">100g Trial Pack</strong> to try • <strong className="font-semibold">200g Everyday Pack</strong> for regular cooking.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function ProductSpotlight({ onAddToCart, onExploreAll }: ProductS
                     <button onClick={() => setActiveTab("features")} className={`text-xs font-bold pb-1 border-b-2 cursor-pointer ${activeTab === "features" ? "text-brand-green border-brand-green" : "text-brand-dark/40 border-transparent"}`}>Highlights</button>
                   </div>
                   <div className="min-h-[70px] flex flex-col justify-center text-xs">
-                    {activeTab === "taste" && <p className="text-brand-dark/80 italic leading-relaxed font-light">Made with premium Allulose and Monk Fruit, Monkaura delivers a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking.</p>}
+                    {activeTab === "taste" && <p className="text-brand-dark/80 italic leading-relaxed font-light">Made with premium Erythritol and Monk Fruit, delivering smooth, sugar-like sweetness for everyday tea, coffee, cooking and baking.</p>}
                     {activeTab === "nutrition" && (
                       <div className="grid grid-cols-2 gap-y-2 gap-x-4 text-[11px]">
                         <div className="flex justify-between border-b border-gray-50 pb-1"><span className="text-brand-dark/50">Added sugar</span><span className="font-semibold text-brand-green">{product.nutritionFacts.addedSugar}</span></div>

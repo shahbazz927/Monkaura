@@ -307,18 +307,18 @@ export default function ProductDetailsModal({
                   <div className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-brand-green mt-2 shrink-0" />
                     <p>
-                      <strong>Allulose:</strong> A rare sugar with a sugar-like taste that is designed for cooking and baking and can brown and caramelize.
+                      <strong>Erythritol + Monk Fruit:</strong> Made with premium Erythritol and Monk Fruit for smooth, sugar-like sweetness. 100g Trial & 200g Everyday packs.
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-brand-green mt-2 shrink-0" />
                     <p>
-                      <strong>Monk Fruit Extract:</strong> Provides clean sweetness. Monkaura is made with Allulose and Monk Fruit, not erythritol.
+                      <strong>Monk Fruit Extract:</strong> Provides clean sweetness without bitterness.
                     </p>
                   </div>
                   <div className="flex items-start gap-3 bg-white p-3 rounded-xl border border-gray-100">
                     <ShieldCheck className="text-brand-green shrink-0 mt-0.5" size={16} />
-                    <span className="text-xs font-semibold text-brand-green">Made with Allulose and Monk Fruit. Designed for everyday use in tea, coffee, cooking and baking.</span>
+                    <span className="text-xs font-semibold text-brand-green">Made with Erythritol and Monk Fruit. 1:1 sugar replacement for everyday tea, coffee, cooking and baking.</span>
                   </div>
                 </div>
               )}
@@ -337,8 +337,8 @@ export default function ProductDetailsModal({
                     </div>
                     <div className="p-3 bg-white rounded-xl border border-gray-100">
                       <span className="font-bold text-brand-green block mb-1 text-xs uppercase tracking-wide">Traditional Indian Sweets</span>
-                      <p className="text-xs text-brand-dark/70 font-light">
-                        Ideal for Kheer, Halwa, and Gulab Jamun syrups because Allulose bakes and browns, delivering authentic sugar textures.
+                       <p className="text-xs text-brand-dark/70 font-light">
+                        Ideal for Kheer, Halwa, and Gulab Jamun.
                       </p>
                     </div>
                   </div>
@@ -356,8 +356,8 @@ export default function ProductDetailsModal({
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
                     <div className="p-3 bg-white rounded-xl border border-gray-100 text-center">
-                      <span className="font-bold text-brand-green block text-xs">Allulose + Monk Fruit</span>
-                      <span className="text-[10px] text-brand-dark/50">Not made with erythritol</span>
+                      <span className="font-bold text-brand-green block text-xs">Erythritol + Monk Fruit</span>
+                      <span className="text-[10px] text-brand-dark/50">Available Now</span>
                     </div>
                     <div className="p-3 bg-white rounded-xl border border-gray-100 text-center">
                       <span className="font-bold text-brand-green block text-xs">1:1 Replacement</span>

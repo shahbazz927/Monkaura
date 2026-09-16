@@ -13,31 +13,31 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       question: "What’s the difference between Allulose and Erythritol?",
-      answer: "Allulose and erythritol are different types of sweeteners. Allulose is a rare sugar with a taste and functionality closer to sugar, while erythritol is a sugar alcohol that can have a cooling sensation. Monkaura is made with Allulose and Monk Fruit, not erythritol."
+      answer: "Allulose is a rare sugar with a taste closer to sugar that can brown and caramelize, while erythritol is a sugar alcohol that can have a cooling sensation and different baking characteristics."
     },
     {
       question: "Does Monkaura contain erythritol?",
-      answer: "No. Monkaura is made with Allulose and Monk Fruit."
+      answer: "Yes — Monkaura is made with Erythritol + Monk Fruit in 100g Trial & 200g Everyday packs."
     },
     {
       question: "Why does Monkaura come in 100g and 200g packs?",
-      answer: "The 100g Trial Pack lets you try Monkaura in your everyday tea, coffee, cooking and baking, while the 200g pack is great if you already love it. Both help you decide whether to make it a regular part of your kitchen."
+      answer: "100g Trial Pack is for trying Monkaura before committing; 200g Everyday Pack is for regular cooking and daily use. Both are Erythritol + Monk Fruit."
     },
     {
       question: "Can I use Monkaura instead of sugar?",
-      answer: "Monkaura is designed as a 1:1 sugar replacement, making it easy to use in many everyday beverages, recipes and baking applications."
+      answer: "Yes — Monkaura is designed as a 1:1 sugar replacement for everyday tea, coffee, cooking and baking."
     },
     {
-      question: "What is Allulose and how does it differ from regular sugar?",
-      answer: "Allulose is a rare sugar found in small amounts in foods like figs and raisins. It has a sugar-like taste and can brown and caramelize, which makes it useful for cooking and baking. Monkaura blends Allulose with Monk Fruit."
+      question: "What is Allulose?",
+      answer: "Allulose is a rare sugar found in small amounts in foods like figs and raisins. It has a sugar-like taste and can brown and caramelize, which makes it useful for cooking and baking."
     },
     {
       question: "Can I cook and bake with Monkaura? Does it measure like sugar?",
-      answer: "Monkaura is designed to be used 1:1 in place of sugar in many everyday recipes, including tea, coffee, cooking and baking. Results may vary by recipe and baking temperature."
+      answer: "Yes — Monkaura is designed to be used 1:1 in place of sugar in many everyday recipes. Results may vary by recipe and baking temperature."
     },
     {
       question: "Is Monkaura certified and suitable for daily use?",
-      answer: "Monkaura is FSSAI certified and produced under food safety standards in India. It is made with Allulose and Monk Fruit and is intended for everyday use in beverages, cooking and baking."
+      answer: "Monkaura is FSSAI certified (Lic No: 13624999000449) and produced under food safety standards in India. It is intended for everyday use."
     }
   ];
 
@@ -73,7 +73,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-brand-dark/70 text-sm font-light">
-            Everything you need to know about Monkaura, Allulose and everyday use.
+            Everything you need to know about Monkaura and everyday use.
           </p>
         </div>
 

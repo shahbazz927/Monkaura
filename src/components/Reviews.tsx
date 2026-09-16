@@ -11,8 +11,8 @@ export default function Reviews() {
     <section className="py-16 md:py-24 bg-brand-cream min-h-[60vh]">
       <Helmet>
         <link rel="canonical" href="https://monkaura.in/reviews" />
-        <title>Reviews — Monkaura Allulose & Monk Fruit</title>
-        <meta name="description" content="Real experiences from Monkaura customers making the switch to Allulose + Monk Fruit." />
+        <title>Reviews — Monkaura Erythritol + Monk Fruit (Available Now)</title>
+        <meta name="description" content="Real experiences from Monkaura Erythritol + Monk Fruit customers. Allulose + Monk Fruit — coming soon." />
       </Helmet>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,7 +24,7 @@ export default function Reviews() {
             Real Experiences. Real Sweetness.
           </h1>
           <p className="text-brand-dark/70 text-sm font-light">
-            See what Monkaura customers have to say about making the switch to Allulose + Monk Fruit.
+            See what customers say about <strong className="font-semibold">Erythritol + Monk Fruit</strong> — available now in 100g & 200g. <span className="text-amber-700">Allulose + Monk Fruit — coming soon.</span>
           </p>
         </div>
 

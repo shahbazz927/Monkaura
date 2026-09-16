@@ -10,23 +10,24 @@ export default function NewToAllulose() {
           <div className="flex-1 space-y-3 text-center md:text-left">
             <span className="inline-flex items-center gap-1.5 text-brand-green font-bold text-xs uppercase tracking-widest">
               <Sparkles size={14} />
-              Start small
+              Available Now — Erythritol + Monk Fruit
             </span>
             <h2 className="font-serif font-extrabold text-2xl sm:text-3xl text-brand-dark tracking-tight">
-              New to Allulose? Start with 100g.
+              New to Monkaura? Start with 100g.
             </h2>
             <p className="text-sm text-brand-dark/70 font-light leading-relaxed">
-              Not sure if Allulose is right for you? Try our 100g Trial Pack or 200g and experience Monkaura in your everyday food and drinks before making it a regular part of your kitchen.
+              Try our <strong className="font-semibold">100g Trial Pack</strong> — perfect for testing Monkaura in your everyday tea, coffee, cooking and baking. Love it? The <strong className="font-semibold">200g Everyday Pack</strong> is made for regular cooking.
             </p>
           </div>
-          <div className="shrink-0 w-full md:w-auto flex justify-center">
+          <div className="shrink-0 w-full md:w-auto flex flex-col gap-3 justify-center">
             <Link
               to="/products"
               className="w-full md:w-auto px-8 py-4 bg-brand-orange hover:bg-brand-orange/90 text-white font-bold text-sm rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2"
             >
-              <span>Try 100g or 200g</span>
+              <span>Try 100g & 200g Everyday</span>
               <ArrowRight size={16} />
             </Link>
+            <Link to="/allulose-story" className="text-center text-xs font-bold text-brand-dark/60 hover:text-brand-green underline underline-offset-4">Learn about Allulose →</Link>
           </div>
         </div>
       </div>

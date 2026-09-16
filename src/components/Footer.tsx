@@ -20,7 +20,7 @@ export default function Footer() {
             <Logo size="md" light={true} />
           </div>
           <p className="text-brand-mint/60 text-xs leading-relaxed font-light">
-            Monkaura is made with Allulose and Monk Fruit, delivering a smooth, sugar-like sweetness designed for everyday use in tea, coffee, cooking and baking.
+            Erythritol + Monk Fruit — 100g Trial & 200g Everyday packs for everyday tea, coffee, cooking and baking.
           </p>
           <div className="pt-2 flex justify-center md:justify-start gap-3">
             {/* Payment Trust Badges */}
@@ -54,7 +54,7 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/allulose-story" onClick={handleNavClick} className="hover:text-white hover:underline transition-all cursor-pointer">
-                The Allulose Science
+                Allulose Story
               </Link>
             </li>
             <li>
@@ -96,7 +96,7 @@ export default function Footer() {
               <span className="font-semibold text-white">FSSAI Certified Raw Materials</span>
             </div>
             <p className="text-[11px] text-brand-mint/50 leading-relaxed font-light">
-              Monkaura adheres strictly to the Food Safety and Standards Authority of India (FSSAI) safety guidelines. Our pure monk fruit extracts and organic rare Allulose sugars are tested for maximum food purity.
+              Monkaura adheres to FSSAI safety guidelines. Our Erythritol + Monk Fruit is tested for purity.
             </p>
             <div className="inline-block bg-white/5 border border-white/10 rounded-lg p-2 text-[10px] text-brand-mint/80">
               Lic No: <span className="font-mono font-bold text-white">13624999000449</span>
