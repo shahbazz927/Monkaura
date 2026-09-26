@@ -1,0 +1,4447 @@
+{
+  "name": "Monkaura Keto Recipe Studio Seed Recipes",
+  "totalRecipes": 128,
+  "combinations": {
+    "mainIngredients": [
+      "Almond Flour",
+      "Cream Cheese",
+      "Cocoa Powder",
+      "Strawberries",
+      "Dark Chocolate",
+      "Peanut Butter",
+      "Blueberries",
+      "Greek Yogurt"
+    ],
+    "categories": [
+      "Dessert",
+      "Baked Goods",
+      "Breakfast",
+      "Drinks"
+    ],
+    "sweeteningStyles": [
+      "Classic Baking",
+      "Rich Caramelized",
+      "Light Sweetness",
+      "Glossy Glazes/Syrup"
+    ]
+  },
+  "nutritionNote": "Nutrition values are approximate display values and should be recalculated from the exact quantities before publishing as verified nutrition information.",
+  "recipes": [
+    {
+      "id": 1,
+      "slug": "almond-flour-dessert-classic-baking",
+      "title": "Monkaura Almond Flour Classic Baking Dessert",
+      "mainIngredient": "Almond Flour",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 2,
+      "slug": "almond-flour-dessert-rich-caramelized",
+      "title": "Monkaura Almond Flour Rich Caramelized Dessert",
+      "mainIngredient": "Almond Flour",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 3,
+      "slug": "almond-flour-dessert-light-sweetness",
+      "title": "Monkaura Almond Flour Light Sweetness Dessert",
+      "mainIngredient": "Almond Flour",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 4,
+      "slug": "almond-flour-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Almond Flour Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Almond Flour",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 5,
+      "slug": "almond-flour-baked-goods-classic-baking",
+      "title": "Monkaura Almond Flour Classic Baking Baked Goods",
+      "mainIngredient": "Almond Flour",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 6,
+      "slug": "almond-flour-baked-goods-rich-caramelized",
+      "title": "Monkaura Almond Flour Rich Caramelized Baked Goods",
+      "mainIngredient": "Almond Flour",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 7,
+      "slug": "almond-flour-baked-goods-light-sweetness",
+      "title": "Monkaura Almond Flour Light Sweetness Baked Goods",
+      "mainIngredient": "Almond Flour",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 8,
+      "slug": "almond-flour-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Almond Flour Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Almond Flour",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 9,
+      "slug": "almond-flour-breakfast-classic-baking",
+      "title": "Monkaura Almond Flour Classic Baking Breakfast",
+      "mainIngredient": "Almond Flour",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 10,
+      "slug": "almond-flour-breakfast-rich-caramelized",
+      "title": "Monkaura Almond Flour Rich Caramelized Breakfast",
+      "mainIngredient": "Almond Flour",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 11,
+      "slug": "almond-flour-breakfast-light-sweetness",
+      "title": "Monkaura Almond Flour Light Sweetness Breakfast",
+      "mainIngredient": "Almond Flour",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 12,
+      "slug": "almond-flour-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Almond Flour Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Almond Flour",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 13,
+      "slug": "almond-flour-drinks-classic-baking",
+      "title": "Monkaura Almond Flour Classic Baking Drinks",
+      "mainIngredient": "Almond Flour",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 14,
+      "slug": "almond-flour-drinks-rich-caramelized",
+      "title": "Monkaura Almond Flour Rich Caramelized Drinks",
+      "mainIngredient": "Almond Flour",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 15,
+      "slug": "almond-flour-drinks-light-sweetness",
+      "title": "Monkaura Almond Flour Light Sweetness Drinks",
+      "mainIngredient": "Almond Flour",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 16,
+      "slug": "almond-flour-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Almond Flour Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Almond Flour",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup almond flour",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 17,
+      "slug": "cream-cheese-dessert-classic-baking",
+      "title": "Monkaura Cream Cheese Classic Baking Dessert",
+      "mainIngredient": "Cream Cheese",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 18,
+      "slug": "cream-cheese-dessert-rich-caramelized",
+      "title": "Monkaura Cream Cheese Rich Caramelized Dessert",
+      "mainIngredient": "Cream Cheese",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 19,
+      "slug": "cream-cheese-dessert-light-sweetness",
+      "title": "Monkaura Cream Cheese Light Sweetness Dessert",
+      "mainIngredient": "Cream Cheese",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 20,
+      "slug": "cream-cheese-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Cream Cheese Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Cream Cheese",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 21,
+      "slug": "cream-cheese-baked-goods-classic-baking",
+      "title": "Monkaura Cream Cheese Classic Baking Baked Goods",
+      "mainIngredient": "Cream Cheese",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 22,
+      "slug": "cream-cheese-baked-goods-rich-caramelized",
+      "title": "Monkaura Cream Cheese Rich Caramelized Baked Goods",
+      "mainIngredient": "Cream Cheese",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 23,
+      "slug": "cream-cheese-baked-goods-light-sweetness",
+      "title": "Monkaura Cream Cheese Light Sweetness Baked Goods",
+      "mainIngredient": "Cream Cheese",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 24,
+      "slug": "cream-cheese-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Cream Cheese Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Cream Cheese",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 25,
+      "slug": "cream-cheese-breakfast-classic-baking",
+      "title": "Monkaura Cream Cheese Classic Baking Breakfast",
+      "mainIngredient": "Cream Cheese",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 26,
+      "slug": "cream-cheese-breakfast-rich-caramelized",
+      "title": "Monkaura Cream Cheese Rich Caramelized Breakfast",
+      "mainIngredient": "Cream Cheese",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 27,
+      "slug": "cream-cheese-breakfast-light-sweetness",
+      "title": "Monkaura Cream Cheese Light Sweetness Breakfast",
+      "mainIngredient": "Cream Cheese",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 28,
+      "slug": "cream-cheese-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Cream Cheese Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Cream Cheese",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 29,
+      "slug": "cream-cheese-drinks-classic-baking",
+      "title": "Monkaura Cream Cheese Classic Baking Drinks",
+      "mainIngredient": "Cream Cheese",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 30,
+      "slug": "cream-cheese-drinks-rich-caramelized",
+      "title": "Monkaura Cream Cheese Rich Caramelized Drinks",
+      "mainIngredient": "Cream Cheese",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 31,
+      "slug": "cream-cheese-drinks-light-sweetness",
+      "title": "Monkaura Cream Cheese Light Sweetness Drinks",
+      "mainIngredient": "Cream Cheese",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 32,
+      "slug": "cream-cheese-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Cream Cheese Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Cream Cheese",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "120 g softened cream cheese",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 33,
+      "slug": "cocoa-powder-dessert-classic-baking",
+      "title": "Monkaura Cocoa Powder Classic Baking Dessert",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 34,
+      "slug": "cocoa-powder-dessert-rich-caramelized",
+      "title": "Monkaura Cocoa Powder Rich Caramelized Dessert",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 35,
+      "slug": "cocoa-powder-dessert-light-sweetness",
+      "title": "Monkaura Cocoa Powder Light Sweetness Dessert",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 36,
+      "slug": "cocoa-powder-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Cocoa Powder Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 37,
+      "slug": "cocoa-powder-baked-goods-classic-baking",
+      "title": "Monkaura Cocoa Powder Classic Baking Baked Goods",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 38,
+      "slug": "cocoa-powder-baked-goods-rich-caramelized",
+      "title": "Monkaura Cocoa Powder Rich Caramelized Baked Goods",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 39,
+      "slug": "cocoa-powder-baked-goods-light-sweetness",
+      "title": "Monkaura Cocoa Powder Light Sweetness Baked Goods",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 40,
+      "slug": "cocoa-powder-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Cocoa Powder Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 41,
+      "slug": "cocoa-powder-breakfast-classic-baking",
+      "title": "Monkaura Cocoa Powder Classic Baking Breakfast",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 42,
+      "slug": "cocoa-powder-breakfast-rich-caramelized",
+      "title": "Monkaura Cocoa Powder Rich Caramelized Breakfast",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 43,
+      "slug": "cocoa-powder-breakfast-light-sweetness",
+      "title": "Monkaura Cocoa Powder Light Sweetness Breakfast",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 44,
+      "slug": "cocoa-powder-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Cocoa Powder Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 45,
+      "slug": "cocoa-powder-drinks-classic-baking",
+      "title": "Monkaura Cocoa Powder Classic Baking Drinks",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 46,
+      "slug": "cocoa-powder-drinks-rich-caramelized",
+      "title": "Monkaura Cocoa Powder Rich Caramelized Drinks",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 47,
+      "slug": "cocoa-powder-drinks-light-sweetness",
+      "title": "Monkaura Cocoa Powder Light Sweetness Drinks",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 48,
+      "slug": "cocoa-powder-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Cocoa Powder Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Cocoa Powder",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/3 cup unsweetened cocoa powder",
+        "2 large eggs",
+        "1/4 cup melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 49,
+      "slug": "strawberries-dessert-classic-baking",
+      "title": "Monkaura Strawberries Classic Baking Dessert",
+      "mainIngredient": "Strawberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 50,
+      "slug": "strawberries-dessert-rich-caramelized",
+      "title": "Monkaura Strawberries Rich Caramelized Dessert",
+      "mainIngredient": "Strawberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 51,
+      "slug": "strawberries-dessert-light-sweetness",
+      "title": "Monkaura Strawberries Light Sweetness Dessert",
+      "mainIngredient": "Strawberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 52,
+      "slug": "strawberries-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Strawberries Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Strawberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 53,
+      "slug": "strawberries-baked-goods-classic-baking",
+      "title": "Monkaura Strawberries Classic Baking Baked Goods",
+      "mainIngredient": "Strawberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 54,
+      "slug": "strawberries-baked-goods-rich-caramelized",
+      "title": "Monkaura Strawberries Rich Caramelized Baked Goods",
+      "mainIngredient": "Strawberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 55,
+      "slug": "strawberries-baked-goods-light-sweetness",
+      "title": "Monkaura Strawberries Light Sweetness Baked Goods",
+      "mainIngredient": "Strawberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 56,
+      "slug": "strawberries-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Strawberries Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Strawberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 57,
+      "slug": "strawberries-breakfast-classic-baking",
+      "title": "Monkaura Strawberries Classic Baking Breakfast",
+      "mainIngredient": "Strawberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 58,
+      "slug": "strawberries-breakfast-rich-caramelized",
+      "title": "Monkaura Strawberries Rich Caramelized Breakfast",
+      "mainIngredient": "Strawberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 59,
+      "slug": "strawberries-breakfast-light-sweetness",
+      "title": "Monkaura Strawberries Light Sweetness Breakfast",
+      "mainIngredient": "Strawberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 60,
+      "slug": "strawberries-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Strawberries Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Strawberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 61,
+      "slug": "strawberries-drinks-classic-baking",
+      "title": "Monkaura Strawberries Classic Baking Drinks",
+      "mainIngredient": "Strawberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 62,
+      "slug": "strawberries-drinks-rich-caramelized",
+      "title": "Monkaura Strawberries Rich Caramelized Drinks",
+      "mainIngredient": "Strawberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 63,
+      "slug": "strawberries-drinks-light-sweetness",
+      "title": "Monkaura Strawberries Light Sweetness Drinks",
+      "mainIngredient": "Strawberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 64,
+      "slug": "strawberries-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Strawberries Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Strawberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup sliced strawberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 65,
+      "slug": "dark-chocolate-dessert-classic-baking",
+      "title": "Monkaura Dark Chocolate Classic Baking Dessert",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 66,
+      "slug": "dark-chocolate-dessert-rich-caramelized",
+      "title": "Monkaura Dark Chocolate Rich Caramelized Dessert",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 67,
+      "slug": "dark-chocolate-dessert-light-sweetness",
+      "title": "Monkaura Dark Chocolate Light Sweetness Dessert",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 68,
+      "slug": "dark-chocolate-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Dark Chocolate Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 69,
+      "slug": "dark-chocolate-baked-goods-classic-baking",
+      "title": "Monkaura Dark Chocolate Classic Baking Baked Goods",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 70,
+      "slug": "dark-chocolate-baked-goods-rich-caramelized",
+      "title": "Monkaura Dark Chocolate Rich Caramelized Baked Goods",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 71,
+      "slug": "dark-chocolate-baked-goods-light-sweetness",
+      "title": "Monkaura Dark Chocolate Light Sweetness Baked Goods",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 72,
+      "slug": "dark-chocolate-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Dark Chocolate Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 73,
+      "slug": "dark-chocolate-breakfast-classic-baking",
+      "title": "Monkaura Dark Chocolate Classic Baking Breakfast",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 74,
+      "slug": "dark-chocolate-breakfast-rich-caramelized",
+      "title": "Monkaura Dark Chocolate Rich Caramelized Breakfast",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 75,
+      "slug": "dark-chocolate-breakfast-light-sweetness",
+      "title": "Monkaura Dark Chocolate Light Sweetness Breakfast",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 76,
+      "slug": "dark-chocolate-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Dark Chocolate Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 77,
+      "slug": "dark-chocolate-drinks-classic-baking",
+      "title": "Monkaura Dark Chocolate Classic Baking Drinks",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 78,
+      "slug": "dark-chocolate-drinks-rich-caramelized",
+      "title": "Monkaura Dark Chocolate Rich Caramelized Drinks",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 79,
+      "slug": "dark-chocolate-drinks-light-sweetness",
+      "title": "Monkaura Dark Chocolate Light Sweetness Drinks",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 80,
+      "slug": "dark-chocolate-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Dark Chocolate Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Dark Chocolate",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "90 g sugar-free dark chocolate",
+        "1/2 cup unsweetened almond milk",
+        "1 tbsp melted coconut oil",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 81,
+      "slug": "peanut-butter-dessert-classic-baking",
+      "title": "Monkaura Peanut Butter Classic Baking Dessert",
+      "mainIngredient": "Peanut Butter",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 82,
+      "slug": "peanut-butter-dessert-rich-caramelized",
+      "title": "Monkaura Peanut Butter Rich Caramelized Dessert",
+      "mainIngredient": "Peanut Butter",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 83,
+      "slug": "peanut-butter-dessert-light-sweetness",
+      "title": "Monkaura Peanut Butter Light Sweetness Dessert",
+      "mainIngredient": "Peanut Butter",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 84,
+      "slug": "peanut-butter-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Peanut Butter Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Peanut Butter",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "205 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 85,
+      "slug": "peanut-butter-baked-goods-classic-baking",
+      "title": "Monkaura Peanut Butter Classic Baking Baked Goods",
+      "mainIngredient": "Peanut Butter",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 86,
+      "slug": "peanut-butter-baked-goods-rich-caramelized",
+      "title": "Monkaura Peanut Butter Rich Caramelized Baked Goods",
+      "mainIngredient": "Peanut Butter",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 87,
+      "slug": "peanut-butter-baked-goods-light-sweetness",
+      "title": "Monkaura Peanut Butter Light Sweetness Baked Goods",
+      "mainIngredient": "Peanut Butter",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 88,
+      "slug": "peanut-butter-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Peanut Butter Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Peanut Butter",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "180 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 89,
+      "slug": "peanut-butter-breakfast-classic-baking",
+      "title": "Monkaura Peanut Butter Classic Baking Breakfast",
+      "mainIngredient": "Peanut Butter",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 90,
+      "slug": "peanut-butter-breakfast-rich-caramelized",
+      "title": "Monkaura Peanut Butter Rich Caramelized Breakfast",
+      "mainIngredient": "Peanut Butter",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 91,
+      "slug": "peanut-butter-breakfast-light-sweetness",
+      "title": "Monkaura Peanut Butter Light Sweetness Breakfast",
+      "mainIngredient": "Peanut Butter",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 92,
+      "slug": "peanut-butter-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Peanut Butter Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Peanut Butter",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "225 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 93,
+      "slug": "peanut-butter-drinks-classic-baking",
+      "title": "Monkaura Peanut Butter Classic Baking Drinks",
+      "mainIngredient": "Peanut Butter",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 94,
+      "slug": "peanut-butter-drinks-rich-caramelized",
+      "title": "Monkaura Peanut Butter Rich Caramelized Drinks",
+      "mainIngredient": "Peanut Butter",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 95,
+      "slug": "peanut-butter-drinks-light-sweetness",
+      "title": "Monkaura Peanut Butter Light Sweetness Drinks",
+      "mainIngredient": "Peanut Butter",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 96,
+      "slug": "peanut-butter-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Peanut Butter Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Peanut Butter",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1/2 cup natural peanut butter",
+        "2 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "140 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 97,
+      "slug": "blueberries-dessert-classic-baking",
+      "title": "Monkaura Blueberries Classic Baking Dessert",
+      "mainIngredient": "Blueberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 98,
+      "slug": "blueberries-dessert-rich-caramelized",
+      "title": "Monkaura Blueberries Rich Caramelized Dessert",
+      "mainIngredient": "Blueberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 99,
+      "slug": "blueberries-dessert-light-sweetness",
+      "title": "Monkaura Blueberries Light Sweetness Dessert",
+      "mainIngredient": "Blueberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 100,
+      "slug": "blueberries-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Blueberries Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Blueberries",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "155 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 101,
+      "slug": "blueberries-baked-goods-classic-baking",
+      "title": "Monkaura Blueberries Classic Baking Baked Goods",
+      "mainIngredient": "Blueberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 102,
+      "slug": "blueberries-baked-goods-rich-caramelized",
+      "title": "Monkaura Blueberries Rich Caramelized Baked Goods",
+      "mainIngredient": "Blueberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 103,
+      "slug": "blueberries-baked-goods-light-sweetness",
+      "title": "Monkaura Blueberries Light Sweetness Baked Goods",
+      "mainIngredient": "Blueberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 104,
+      "slug": "blueberries-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Blueberries Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Blueberries",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "130 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 105,
+      "slug": "blueberries-breakfast-classic-baking",
+      "title": "Monkaura Blueberries Classic Baking Breakfast",
+      "mainIngredient": "Blueberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 106,
+      "slug": "blueberries-breakfast-rich-caramelized",
+      "title": "Monkaura Blueberries Rich Caramelized Breakfast",
+      "mainIngredient": "Blueberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 107,
+      "slug": "blueberries-breakfast-light-sweetness",
+      "title": "Monkaura Blueberries Light Sweetness Breakfast",
+      "mainIngredient": "Blueberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 108,
+      "slug": "blueberries-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Blueberries Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Blueberries",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "175 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 109,
+      "slug": "blueberries-drinks-classic-baking",
+      "title": "Monkaura Blueberries Classic Baking Drinks",
+      "mainIngredient": "Blueberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 110,
+      "slug": "blueberries-drinks-rich-caramelized",
+      "title": "Monkaura Blueberries Rich Caramelized Drinks",
+      "mainIngredient": "Blueberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 111,
+      "slug": "blueberries-drinks-light-sweetness",
+      "title": "Monkaura Blueberries Light Sweetness Drinks",
+      "mainIngredient": "Blueberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 112,
+      "slug": "blueberries-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Blueberries Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Blueberries",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup fresh blueberries",
+        "1/2 cup unsweetened Greek yogurt",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "90 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 113,
+      "slug": "greek-yogurt-dessert-classic-baking",
+      "title": "Monkaura Greek Yogurt Classic Baking Dessert",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Dessert",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 114,
+      "slug": "greek-yogurt-dessert-rich-caramelized",
+      "title": "Monkaura Greek Yogurt Rich Caramelized Dessert",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Dessert",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 115,
+      "slug": "greek-yogurt-dessert-light-sweetness",
+      "title": "Monkaura Greek Yogurt Light Sweetness Dessert",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Dessert",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 116,
+      "slug": "greek-yogurt-dessert-glossy-glazes/syrup",
+      "title": "Monkaura Greek Yogurt Glossy Glazes/Syrup Dessert",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Dessert",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "serves": "4",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the ingredients and bring chilled ingredients to room temperature.",
+        "Mix the main ingredients with the Monkaura sweetener and vanilla until smooth.",
+        "Add the remaining dry ingredients and mix just until combined.",
+        "Chill or bake as appropriate until set and lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "170 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 117,
+      "slug": "greek-yogurt-baked-goods-classic-baking",
+      "title": "Monkaura Greek Yogurt Classic Baking Baked Goods",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 118,
+      "slug": "greek-yogurt-baked-goods-rich-caramelized",
+      "title": "Monkaura Greek Yogurt Rich Caramelized Baked Goods",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 119,
+      "slug": "greek-yogurt-baked-goods-light-sweetness",
+      "title": "Monkaura Greek Yogurt Light Sweetness Baked Goods",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 120,
+      "slug": "greek-yogurt-baked-goods-glossy-glazes/syrup",
+      "title": "Monkaura Greek Yogurt Glossy Glazes/Syrup Baked Goods",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Baked Goods",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "15 mins",
+      "cookTime": "22 mins",
+      "serves": "8",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "baking powder",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/4 tsp baking powder"
+      ],
+      "directions": [
+        "Preheat the oven to 175°C (350°F) and prepare a lined baking dish.",
+        "Whisk the dry ingredients and Monkaura sweetener together.",
+        "Mix the wet ingredients separately, then fold them into the dry mixture.",
+        "Bake until the center is set and the edges are lightly golden.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "145 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 121,
+      "slug": "greek-yogurt-breakfast-classic-baking",
+      "title": "Monkaura Greek Yogurt Classic Baking Breakfast",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Breakfast",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 122,
+      "slug": "greek-yogurt-breakfast-rich-caramelized",
+      "title": "Monkaura Greek Yogurt Rich Caramelized Breakfast",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Breakfast",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 123,
+      "slug": "greek-yogurt-breakfast-light-sweetness",
+      "title": "Monkaura Greek Yogurt Light Sweetness Breakfast",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Breakfast",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 124,
+      "slug": "greek-yogurt-breakfast-glossy-glazes/syrup",
+      "title": "Monkaura Greek Yogurt Glossy Glazes/Syrup Breakfast",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Breakfast",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "8 mins",
+      "cookTime": "10 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "pinch of sea salt",
+        "1/2 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Prepare the main ingredient and measure the remaining ingredients.",
+        "Combine the main ingredients with Monkaura sweetener and vanilla.",
+        "Cook or assemble over medium heat until creamy and well combined.",
+        "Adjust the consistency with a small amount of unsweetened milk or water if needed.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "190 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    },
+    {
+      "id": 125,
+      "slug": "greek-yogurt-drinks-classic-baking",
+      "title": "Monkaura Greek Yogurt Classic Baking Drinks",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Drinks",
+      "sweeteningStyle": "Classic Baking",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener evenly throughout the mixture for balanced sweetness."
+    },
+    {
+      "id": 126,
+      "slug": "greek-yogurt-drinks-rich-caramelized",
+      "title": "Monkaura Greek Yogurt Rich Caramelized Drinks",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Drinks",
+      "sweeteningStyle": "Rich Caramelized",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use the Monkaura sweetener in the cooking/baking stage and allow the edges to caramelize lightly."
+    },
+    {
+      "id": 127,
+      "slug": "greek-yogurt-drinks-light-sweetness",
+      "title": "Monkaura Greek Yogurt Light Sweetness Drinks",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Drinks",
+      "sweeteningStyle": "Light Sweetness",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Use a lighter amount of Monkaura sweetener and keep the natural flavor of the main ingredient prominent."
+    },
+    {
+      "id": 128,
+      "slug": "greek-yogurt-drinks-glossy-glazes/syrup",
+      "title": "Monkaura Greek Yogurt Glossy Glazes/Syrup Drinks",
+      "mainIngredient": "Greek Yogurt",
+      "category": "Drinks",
+      "sweeteningStyle": "Glossy Glazes/Syrup",
+      "prepTime": "5 mins",
+      "cookTime": "0 mins",
+      "serves": "2",
+      "ingredients": [
+        "1 cup plain full-fat Greek yogurt",
+        "1 large egg",
+        "1 tbsp chia seeds",
+        "Monkaura Erythritol Monkaura Erythritol & Monk Fruit Sweetener Monk Fruit Sweetener",
+        "vanilla extract",
+        "ice",
+        "unsweetened almond milk",
+        "1 cup unsweetened almond milk"
+      ],
+      "directions": [
+        "Add the main ingredient, Monkaura sweetener, vanilla, and liquid to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Add ice and blend again until chilled.",
+        "Taste and adjust sweetness using a small amount of Monkaura sweetener.",
+        "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup. Serve fresh."
+      ],
+      "nutritionPerServing": {
+        "calories": "105 kcal",
+        "netCarbs": "3-6 g",
+        "fat": "7-12 g",
+        "protein": "4-8 g"
+      },
+      "monkauraNote": "Reserve a small amount of Monkaura sweetener for a thin finishing glaze or syrup."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Monkaura",
+  "description": "MONKAURA — Monk Fruit, Erythritol natural sweetener in 100g Trial and 200g Everyday packs. 1:1 sugar replacement for tea, coffee, cooking and baking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
